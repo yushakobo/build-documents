@@ -1,83 +1,84 @@
-# Quick7 ビルドガイド
+# Quick7 Buildguide
 
-English Build guide is [here](Buildguide-en.md)
-
-## 必要な部品
+## Required Parts
 
 ![kit_parts_overview](imgs/IMG_0387.jpeg)
 
-|部品名|数量|備考|
+|Description|qty|note|
 |---|---|---|
-|基板|1枚|
-|トッププレート|1枚|
-|ボトムプレート|1枚|
-|Pro Micro 又は 互換品|1個|Sparkfun製Qwiic Pro Microには対応していません|
-|コンスルー|2本|
-|タクトスイッチ|1個|リセットスイッチ用|
-|M2スペーサー 10mm|4本|ミドルプレートを使う場合、平径3mmのもの|
-|M2ネジ 4mm|8本|
-|Cherry MX互換キースイッチ|9個|ロータリーエンコーダーを使う場合、7個又は8個|
-|Cherry MX互換キーキャップ|9個|ロータリーエンコーダーを使う場合、7個又は8個|
-|ゴム足|4個|
+|PCB|1|
+|Top Plate|1|
+|Bottom Plate|1|
+|Pro Micro (or other compartibles)|1|"Sparkfun Qwiic Pro Micro" is not supported|
+|Contrough|2|XB-3-2.5-12P from [MAC8](https://www.mac8japan.com/)|
+|Reset switch|1個|
+|M2 10mm Stand-offs|4|Flat diameter 3mm|
+|M2 4mm Screw|8|
+|Cherry MX compatible keyswitches|7~9|Depends on Qty of Rotary Encoder|
+|Cherry MX compatible keycaps|7~9|Depends on Qty of Rotary Encoder|
+|Rubber feet|4|
 <br />
 
-### オプション部品
+### Optional Parts
 
-|部品名|数量|備考|
+|Description|qty|note|
 |---|---|---|
-|アクリルミドルプレート|1個|厚さ10mmのもの|
-|LED(YS-SK6812MINI-E)|13個|バックライト、アンダーグロー用|
-|ロータリーエンコーダー|1~2個|Alps EC12E互換のもの、プッシュスイッチ対応|
-|ロータリーエンコーダー用ノブ|1~2個|使用するロータリーエンコーダーの軸に対応したもの|
+|Acrylic Middle Plate|1|10mm Thick|
+|LED(YS-SK6812MINI-E)|13|for Backlighting, Underglow|
+|Rotary Encoder|1~2|Alps EC12E compatible, w/Pushswitch|
+|Knob|1~2|
 <br />
 
-## 必要な道具
+## Tools
 
-|名称|備考|
+|Name|Note|
 |---|---|
-|はんだごて|LEDを使用する場合は調温機能のついたもの|
-|はんだ線|0.6mm~0.8mmのもの|
-|ニッパー|
-|ドライバー|PH1のもの|
+|Soldering iron|When use with YS-SK6812MINI-E, make sure that is tempreture controllable|
+|Lead solder|0.6mm~0.8mmのもの|
+|Precision nippers|
+|Screwdriver|PH1|
 <br />
 
-### 回路図は[こちら](Quick7.pdf)
+### Schematic is [here](Quick7.pdf)
 
-## 組み立ての前に
-作業の前に必ずこのビルドガイドの最後まで目を通してください。
-***以降の作業では非常に熱いはんだごてを扱います。作業の途中に席を離れる際は電源を切るなど、やけどや怪我には十分注意してください。***
+## Before getting started
+Please check the entire steps of this build at first.
+
+***For this build, we will handle a very hot soldering iron. If you leave your seat during the work, be sure to turn off the power and be careful not to get burned or injured.***
 
 
-## 組み立ての手順
-大まかな流れは以下のとおりです。それぞれ順を追ってみていきましょう。
+## Build steps
+Here is the summary of building Quick7 keyboard.
 
-1. LEDのはんだ付け
-1. リセットスイッチのはんだ付け
-1. コンスルーのはんだ付け
-1. キースイッチの取り付け
-1. ロータリーエンコーダーの取り付け
-1. キースイッチ、ロータリーエンコーダーのはんだ付け
-1. Pro Microの取り付け
-1. ファームウェアの書き込み、動作確認
-1. スペーサーの取り付け
-1. キーキャップとノブ、ゴム足の取り付け
+1. Soldering small parts
+    1. YS-SK6812MINI-E LEDs
+    1. Reset switch
+    1. Conthrough
+1. Install main parts
+    1. Key switches
+    1. Rotary Encoder(s)
+1. Solder main parts
+1. Install Pro micro
+1. Flash firmware, validation
+1. Assemble case
+1. Put keycaps, Knob(s) and Rubber feets on
 
-## 1. LEDのはんだ付け
-4本出ている脚のうち切り欠きのある部分を」印のある位置に合わせておき、はんだ付けします。
-***それぞれの行で向きが変わることに気をつけてください。***
+## 1. YS-SK6812MINI-E LEDs
+White "L" shape indicates here to apply small cutout.
+***The direction changes on each line***
 
-**使用するLEDは熱に弱いため、はんだごての温度は270℃以下に設定することをお勧めします。**
+**Set the temperature of Soldering iron to 270 degree Celsius or less**
 LED以外の部品については一定の耐熱があるので320℃程度で使用できます。
 
 ![ys_sk6812mini_e_footprint](imgs/IMG_0366.png)
 
 ![ys_sk6812mini_e_closeup](imgs/IMG_0366_1.png)
 
-UnderGlow LEDを使用する場合は、この穴を使いウラ面からはんだ付けします。
+For UnderGlow, use this hole and solder from backside.
 
 ![ys_sk6812mini_e_for_underglow](imgs/IMG_0366_2.png)
 
-## 2. リセットスイッチのはんだ付け
+## 2. Reset switch
 基板上Resetとある位置にタクトスイッチを取り付け、はんだ付けします。
 
 ![reset_sw_placing](imgs/IMG_0368.jpeg)
