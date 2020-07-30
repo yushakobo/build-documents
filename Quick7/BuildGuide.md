@@ -12,7 +12,7 @@ English Build guide is [here](Buildguide-en.md)
 |トッププレート|1枚|
 |ボトムプレート|1枚|
 |Pro Micro 又は 互換品|1個|Sparkfun製Qwiic Pro Microには対応していません|
-|コンスルー|2本|
+|コンスルー|2本|[MAC8](https://www.mac8sdk.co.jp/catalog/)製 XB-3-2.5-12P|
 |タクトスイッチ|1個|リセットスイッチ用|
 |M2スペーサー 10mm|4本|ミドルプレートを使う場合、平径3mmのもの|
 |M2ネジ 4mm|8本|
