@@ -1,5 +1,7 @@
 # Quick7 ビルドガイド
 
+English Build guide is [here](Buildguide-en.md)
+
 ## 必要な部品
 
 ![kit_parts_overview](imgs/IMG_0387.jpeg)
