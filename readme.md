@@ -8,4 +8,4 @@ Build documentations list.
 
 [![Helix_rev3_complete](helix_rev3/imgs/IMG_4598.JPG)](helix_rev3/BuildGuide_LP.md)
 
-## [Helix rev3](helix_rev3/BuildGuide.md)
+## [Helix rev3](helix_rev3/BuildGuide_LP.md)
