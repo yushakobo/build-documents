@@ -1,21 +1,21 @@
 # ErgoDash ビルドガイド
 このページのビルドガイドではオプション機能のUndergrow LEDの取り付けやバックライトLEDの取り付け手順を記載していません。  
-これらのLEDの取り付けをしたい場合は[本家のビルドガイド](https://github.com/omkbd/ErgoDash/blob/master/Doc/build.md)を参照して組み立てを行ってください。
+これらのLEDの取り付けをしたい場合は[本家のビルドガイド](https://github.com/omkbd/ErgoDash/blob/master/Doc/build.md)を参照して組み立てを行ってください。  
 https://github.com/omkbd/ErgoDash/blob/master/Doc/build.md
 ## 組みたいレイアウトを決める
 
 親指なしのレイアウトを組みたい場合PCBを切断します。  
 手で折るか、ペンチなどの工具を使用してください。
 
-## 
 
 ## 1.ダイオードを取り付ける
 使用部品:ダイオード  
 使用工具:ニッパー　はんだごて  
 
-アクリルを重ねてダイオードを折る  
+アクリルケースを3枚重ね、10個程度でダイオードのリールをカットし、アクリルに押さえつけてダイオードを折り曲げます。    
 ![ergodash_diode1](imgs/tmp.png)
-リールからダイオードを外します  
+ニッパーでカットするか手でリールからダイオードを外します。  
+小さい部品ですので紛失しないようにしてください。    
 ![ergodash_diode2](imgs/tmp.png)
 ダイオードの黒色を下向きにして画像のオレンジ色の場所に差し込みます。  
 親指周辺の向きに気をつけてください。  
@@ -35,7 +35,7 @@ https://github.com/omkbd/ErgoDash/blob/master/Doc/build.md
 内側上部の四角で囲まれている場所にTRRSジャックを差し込みます。
 ![ergodash_trrs](imgs/ergodash_trrs.png)
 ![ergodash_trrs2](imgs/tmp.png)
-マスキングテープ等で仮固定して基板を裏返してはんだ付けします。
+基板を裏返してTRRSジャックをはんだ付けします。
 ![ergodash_trrs2](imgs/tmp.png)
 
 ## 3.リセットスイッチの取り付け
@@ -55,7 +55,12 @@ https://github.com/omkbd/ErgoDash/blob/master/Doc/build.md
   
 2Uサイズ(大きいサイズ)のキーキャップを使用する場合はスタビライザーを取り付けます。
 必須部品ではありませんが取り付けを推奨しています。
-親指近くの大きい方の穴に斜めに入れ、スタビライザーの爪を引っ掛けてから反対の穴に差し込みます。
+
+取り付け前に正しく動作するかを確認します。  
+スタビライザーを動かして十字が付いている部品が2つとも上まで動き上がっていることを確認してください。  
+
+
+親指近くの大きい方の穴に斜めに入れ、スタビライザーの爪を引っ掛けてから反対の小さい穴に差し込みます。
 ![ergodash_stabilizer](imgs/tmp.png)
 ## 5.キースイッチの取り付け
 使用部品:キースイッチ 5mmねじ(短い方) 6mmスペーサー
@@ -101,7 +106,7 @@ ProMicro側のピンのみをはんだ付けします。
 ![ergodash_promicro6](imgs/tmp.png)
 
 ## 7.ケースの組み立て
-使用部品:ボトムプレート 5mmねじ(短い方)　8mmねじ(長い方)
+使用部品:ボトムプレート 5mmねじ(短い方)　8mmねじ(長い方) ゴム足
 使用工具:精密ドライバー
 
 ボトムプレートとProMicroカバーを取り出し保護紙を剥がします。  
@@ -113,3 +118,4 @@ ProMicro側のピンのみをはんだ付けします。
 ![ergodash_case2](imgs/tmp.png)
 ## 8.ファームウェアの書き込み
 使用部品:MicroUSB TRRSケーブル
+

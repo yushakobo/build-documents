@@ -38,3 +38,5 @@
 
 遊舎工房では自作キーボード作成に必要な工具セットを販売しています。
 https://shop.yushakobo.jp/collections/accessory/products/a9900to
+
+### 次へ:[組み立て](ErgoDash_BuildGuide.md)
