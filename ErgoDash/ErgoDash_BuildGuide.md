@@ -1,32 +1,39 @@
 # ErgoDash ビルドガイド
+### はじめに
 このページのビルドガイドではオプション機能のUndergrow LEDの取り付けやバックライトLEDの取り付け手順を記載していません。  
 これらのLEDの取り付けをしたい場合は[本家のビルドガイド](https://github.com/omkbd/ErgoDash/blob/master/Doc/build.md)を参照して組み立てを行ってください。  
 https://github.com/omkbd/ErgoDash/blob/master/Doc/build.md
-## 組みたいレイアウトを決める
+  
 
+このビルドガイドでは親指ありと親指なし両方のレイアウトの組み立てを行っております。
+## 組みたいレイアウトを決める
+__親指ありのレイアウトで組み立てる場合はこの手順をスキップしてください。__ 
+    
 親指なしのレイアウトを組みたい場合PCBを切断します。  
 手で折るか、ペンチなどの工具を使用してください。
-
+![ergodash_pcb1](imgs/pcb1.JPG)
+![ergodash_pcb2](imgs/pcb2.JPG)
 
 ## 1.ダイオードを取り付ける
 使用部品:ダイオード  
 使用工具:ニッパー　はんだごて  
 
 アクリルケースを3枚重ね、10個程度でダイオードのリールをカットし、アクリルに押さえつけてダイオードを折り曲げます。    
-![ergodash_diode1](imgs/tmp.png)
+![ergodash_diode1](imgs/diode1.JPG)
 ニッパーでカットするか手でリールからダイオードを外します。  
 小さい部品ですので紛失しないようにしてください。    
-![ergodash_diode2](imgs/tmp.png)
+![ergodash_diode2](imgs/diode2.JPG)
 ダイオードの黒色を下向きにして画像のオレンジ色の場所に差し込みます。  
 親指周辺の向きに気をつけてください。  
 ![ergodash_diode3](imgs/ergodash_diode.png)
 
 ダイオードをマスキングテープなどで固定するかリードを広げます。  
 基板を裏返してダイオードをはんだ付けします。
-![ergodash_diode4](imgs/tmp.png)
+![ergodash_diode4](imgs/diode4.JPG)
 
 はんだ付け後ニッパーでダイオードのリードをカットします
-![ergodash_diode5](imgs/tmp.png)
+![ergodash_diode5](imgs/diode5.JPG)
+![ergodash_diode6](imgs/diode6.JPG)
 
 ## 2.TRRSジャックの取り付け
 使用部品:TRRSジャック  
@@ -34,9 +41,9 @@ https://github.com/omkbd/ErgoDash/blob/master/Doc/build.md
   
 内側上部の四角で囲まれている場所にTRRSジャックを差し込みます。
 ![ergodash_trrs](imgs/ergodash_trrs.png)
-![ergodash_trrs2](imgs/tmp.png)
+![ergodash_trrs2](imgs/trrs2.JPG)
 基板を裏返してTRRSジャックをはんだ付けします。
-![ergodash_trrs2](imgs/tmp.png)
+![ergodash_trrs2](imgs/trrs3.JPG)
 
 ## 3.リセットスイッチの取り付け
 使用部品:リセットスイッチ  
@@ -44,10 +51,9 @@ https://github.com/omkbd/ErgoDash/blob/master/Doc/build.md
   
 オレンジに囲まれた場所にリセットスイッチを取り付けます。
 ![ergodash_rsw](imgs/ergodash_rsw.png)
-![ergodash_rsw2](imgs/tmp.png)
+![ergodash_rsw2](imgs/rsw2.JPG)
 
-ダイオード、TRRSジャック、リセットスイッチがすべて正しく取り付けできているか確認してください。
-![ergodash_partsall](imgs/tmp.png)
+__これ以降の工程では後からの修正が難しくなるため、ダイオード,TRRSジャック,リセットスイッチがすべて正しく取り付けられ、はんだ付けされているか確認してください。__
 
 ## 4.スタビライザーの取り付け
 使用部品:スタビライザー  
@@ -57,30 +63,35 @@ https://github.com/omkbd/ErgoDash/blob/master/Doc/build.md
 必須部品ではありませんが取り付けを推奨しています。
 
 取り付け前に正しく動作するかを確認します。  
-スタビライザーを動かして十字が付いている部品が2つとも上まで動き上がっていることを確認してください。  
+スタビライザーを動かして十字の部品が2つとも上まで動き上がっていることを確認してください。  
+![ergodash_stabilizer1](imgs/stabilizer1.JPG)
 
+大きい方の穴にスタビライザーのプラスチックの爪を斜めに引っ掛けてから反対の小さい穴に差し込みます。
+![ergodash_stabilizer2](imgs/stabilizer2.JPG)
+![ergodash_stabilizer3](imgs/stabilizer3.JPG)
 
-親指近くの大きい方の穴に斜めに入れ、スタビライザーの爪を引っ掛けてから反対の小さい穴に差し込みます。
-![ergodash_stabilizer](imgs/tmp.png)
+正しく取り付けられているか確認してください。
+![ergodash_stabilizer4](imgs/stabilizer4.JPG)
 ## 5.キースイッチの取り付け
 使用部品:キースイッチ 5mmねじ(短い方) 6mmスペーサー
 使用工具:はんだごて  ドライバー
   
 アクリルのトッププレートのフィルムを剥がします。
-![ergodash_plate1](imgs/tmp.png)
+![ergodash_plate1](imgs/plate1.JPG)
 
 5mmねじ(短い方)と6mmスペーサーを取り出し、プレートに固定します。
-![ergodash_plate4](imgs/tmp.png)
-
+![ergodash_plate2](imgs/plate2.JPG)
+![ergodash_plate3](imgs/plate3.JPG)
 プレート四隅にスイッチを差し込んでから基板にまっすぐ差し込みます。
-![ergodash_plate2](imgs/tmp.png)
+![ergodash_SW1](imgs/SW1.JPG)
+![ergodash_SW2](imgs/SW2.JPG)
 浮きがないように確認し、基板を裏返しスイッチをはんだ付けして固定します。
-![ergodash_plate3](imgs/tmp.png)
-![ergodash_plate4](imgs/tmp.png)
+![ergodash_SW3](imgs/SW3.JPG)
+![ergodash_SW4](imgs/SW4.JPG)
 
 残りのスイッチをしっかりと差し込み、浮きや斜めになってないかを確認してからはんだ付けします。
-![ergodash_plate5](imgs/tmp.png)
-![ergodash_plate6](imgs/tmp.png)
+![ergodash_SW5](imgs/SW5.JPG)
+![ergodash_SW6](imgs/SW6.JPG)
 
 ## 6.ProMicroの取り付け
 使用部品:ProMicro コンスルー(スプリングピンヘッダ)
@@ -88,34 +99,34 @@ https://github.com/omkbd/ErgoDash/blob/master/Doc/build.md
   
 破損時や故障時に交換可能にするため**ProMicroの袋に同封しているピンヘッダは使用しないでください。(使用しないため廃棄しても構いません)**  
 別袋に同封されているコンスルーを使用します。  
-![ergodash_promicro1](imgs/tmp.png)
+![ergodash_promicro1](imgs/promicro1.jpg)
   
 ProMicroの下側にあるスイッチのピンをカットします。  
 画像の水色で囲まれている箇所の基板から飛び出しているピンをカットします。  
-カットしないとスイッチのピンでProMicroがショートし動作不良や故障などが発生する可能性があります。
+カットしない場合スイッチのピンでProMicroがショートし動作不良や故障などが発生する可能性があります。
 ![ergodash_promicro2](imgs/ergodash_promicro2.png)
-![ergodash_promicro3](imgs/tmp.png)
+![ergodash_promicro3](imgs/promicro3.JPG)
 
 コンスルーには取り付けの推奨の向きがあります。  
 コンスルー側面の金色が見えている方を上側(ProMicro側)にし、左右向きを揃えて差し込みます。  
-![ergodash_promicro4](imgs/tmp.png)
+![ergodash_promicro4](imgs/promicro4.JPG)
 
 ProMicroの部品がついている方を下向きにして押し込みます。  
-![ergodash_promicro5](imgs/tmp.png)
+![ergodash_promicro5](imgs/promicro5.JPG)
+![ergodash_promicro6](imgs/promicro6.JPG)
 ProMicro側のピンのみをはんだ付けします。  
-![ergodash_promicro6](imgs/tmp.png)
+![ergodash_promicro7](imgs/promicro7.JPG)
 
 ## 7.ケースの組み立て
-使用部品:ボトムプレート 5mmねじ(短い方)　8mmねじ(長い方) ゴム足
+使用部品:ボトムプレート 5mmねじ(短い方)　8mmねじ(長い方) ゴム足  
 使用工具:精密ドライバー
 
-ボトムプレートとProMicroカバーを取り出し保護紙を剥がします。  
+ボトムプレートとProMicroカバーを取り出し保護紙を剥がします。 
+![ergodash_plate4](imgs/plate4.JPG)
 裏側から重ね合わせてネジ止めをします。  
 場所によって使うねじの長さが異なります。画像を参照し取り付けを行ってください。
-![ergodash_case1](https://github.com/omkbd/picture/raw/master/case.jpg)
+![ergodash_plate5](imgs/plate5.JPG)
 
 ゴム足を底面四隅に貼り付けます。
-![ergodash_case2](imgs/tmp.png)
-## 8.ファームウェアの書き込み
-使用部品:MicroUSB TRRSケーブル
-
+![ergodash_plate6](imgs/plate6.JPG)
+## 8.お好きなキーキャップを取り付けて完成です
