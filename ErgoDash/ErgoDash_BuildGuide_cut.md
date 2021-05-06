@@ -1,4 +1,4 @@
-# ErgoDash 親指ありビルドガイド
+# ErgoDash 親指なし ビルドガイド
 ### はじめに
 このページのビルドガイドではオプション機能のUndergrow LEDの取り付けやバックライトLEDの取り付け手順を記載していません。  
 これらのLEDの取り付けをしたい場合は[本家のビルドガイド](https://github.com/omkbd/ErgoDash/blob/master/Doc/build.md)を参照して組み立てを行ってください。  
@@ -7,8 +7,14 @@ https://github.com/omkbd/ErgoDash/blob/master/Doc/build.md
 
 このビルドガイドでは親指なしのレイアウトの組み立てを行っています。
 親指ありの組み立ては以下のページを参照下さい。  
-[親指なしレイアウト ビルドガイド](ErgoDash_BuildGuide_cut.md)
-  
+[親指ありレイアウト ビルドガイド](ErgoDash_BuildGuide.md)
+
+## 組みたいレイアウトを決める
+    
+PCBを切断します。  
+手で折るか、ペンチなどの工具を使用してください。
+![ergodash_pcb2](imgs/pcb2.JPG)
+
 ## 1.ダイオードを取り付ける
 使用部品:ダイオード  
 使用工具:ニッパー　はんだごて  
@@ -49,7 +55,6 @@ https://github.com/omkbd/ErgoDash/blob/master/Doc/build.md
   
 オレンジに囲まれた場所にリセットスイッチを取り付けます。
 ![ergodash_rsw](imgs/ergodash_rsw.png)
-×が記載されている場所には差し込まないように注意して下さい。  
 正しく差し込まれていればリセットスイッチの左隣に"TX0"の文字が記載されています
 ![ergodash_rsw2](imgs/rsw2.jpg)
 
@@ -65,7 +70,7 @@ https://github.com/omkbd/ErgoDash/blob/master/Doc/build.md
 使用部品:スタビライザー  
 使用工具:なし  
   
-**2Uサイズ(大きいサイズ)のキーキャップを使用する場合**はスタビライザーを取り付けます。  
+2Uサイズ(大きいサイズ)のキーキャップを使用する場合はスタビライザーを取り付けます。  
 必須部品ではありませんが取り付けを推奨しています。
 
 取り付け前に正しく動作するかを確認します。  
