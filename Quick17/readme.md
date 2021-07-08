@@ -126,4 +126,4 @@ Quick17はファームウェアとしてqmk_firmwareを使用しています。[
 
 ![finish_plate](imgs/IMG_4941.JPG)
 
-![finish_tester](imgs/IMG_4945.JPG)
+![finish_steel-case](imgs/IMG_4945.JPG)
