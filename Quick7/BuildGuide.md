@@ -129,7 +129,7 @@ UnderGlow LEDを使用する場合は、この穴を使いウラ面からはん�
 ![promicro_re-placed](imgs/IMG_0393.jpeg)
 
 ## 8. ファームウェア書き込み、動作確認
-Quick7はファームウェアとしてQMK Firmwareを使用しています。[公式のDocs](https://docs.qmk.fm/)の通りに環境を用意し、書き込みます。
+Quick7はファームウェアとしてQMK Firmwareを使用しています。[公式のDocs](https://docs.qmk.fm/#/ja/)の通りに環境を用意し、書き込みます。
 
 ## 9. スペーサーの取り付け
 四隅の穴にスペーサーを取り付けます。
