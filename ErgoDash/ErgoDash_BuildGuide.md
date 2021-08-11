@@ -27,11 +27,11 @@ https://github.com/omkbd/ErgoDash/blob/master/Doc/build.md
 ダイオードをマスキングテープなどで固定するかリードを広げます。  
 基板を裏返してダイオードをはんだ付けします。  
 はんだが富士山のような形になるのが良いはんだ付けです。   
-![ergodash_diode4](imgs/diode4-2.JPG) 
+![ergodash_diode4](imgs/diode4-2.jpg) 
 
 はんだ付け後、ニッパーでダイオードのリードの根本をカットします
-![ergodash_diode5](imgs/diode5-2.JPG)
-![ergodash_diode6](imgs/diode6-2.JPG)
+![ergodash_diode5](imgs/diode5-2.jpg)
+![ergodash_diode6](imgs/diode6-2.jpg)
 
 ## 2.TRRSジャックの取り付け
 使用部品:TRRSジャック  
