@@ -22,7 +22,7 @@ https://github.com/omkbd/ErgoDash/blob/master/Doc/build.md
 親指周辺の向きに気をつけてください。  
 
 ![ergodash_diode](imgs/diode3.jpg)
-![ergodash_diode3](imgs/ergodash_diode.jpg)
+![ergodash_diode3](imgs/ergodash_diode.png)
 
 ダイオードをマスキングテープなどで固定するかリードを広げます。  
 基板を裏返してダイオードをはんだ付けします。  
