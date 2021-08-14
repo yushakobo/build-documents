@@ -5,7 +5,7 @@
 https://github.com/omkbd/ErgoDash/blob/master/Doc/build.md
   
 
-このビルドガイドでは親指なしのレイアウトの組み立てを行っています。
+このビルドガイドでは親指ありのレイアウトの組み立てを行っています。
 親指ありの組み立ては以下のページを参照下さい。  
 [親指なしレイアウト ビルドガイド](ErgoDash_BuildGuide_cut.md)
   
