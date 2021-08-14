@@ -36,7 +36,7 @@ PCBを切断します。
 ![ergodash_diode4](imgs/diode4.JPG) 
 
 はんだ付け後、ニッパーでダイオードのリードの根本をカットします
-![ergodash_diode5](imgs/diode5.JPG)
+![ergodash_diode5](imgs/diode5-2.jpg)
 ![ergodash_diode6](imgs/diode6.JPG)
 
 ## 2.TRRSジャックの取り付け
