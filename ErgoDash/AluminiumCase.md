@@ -24,7 +24,7 @@
 コンスルーは2つが合体していることがあります。使用する時に分離してください）
 - b.ダイオード　赤白の連続テープで70個
 
-![a. ProMicro +コンスルー](imgs/AluminiumCase/P1PartsLIst/PIC3.png)
+![a. ProMicro +コンスルー](imgs/AluminiumCase/P1PartsList/PIC3.png)
 
 
 ### 小袋の中のもの
@@ -35,7 +35,7 @@
 - e.リセットスイッチ　2個
 - f.TRRSジャック　2個
 
-![小袋の中のもの](imgs/AluminiumCase/P1PartsLIst/PIC4.png)
+![小袋の中のもの](imgs/AluminiumCase/P1PartsList/PIC4.png)
 
 ### ケース用袋の中のもの
 - ワッシャー　M5 　16枚 ※外周10mmのため注意（標準的なものは外周12mm）
@@ -44,7 +44,7 @@
 - スパナ（M5用）
 - 六角レンチ
 
-![ケース用袋の中のもの](imgs/AluminiumCase/P1PartsLIst/PIC5.png)
+![ケース用袋の中のもの](imgs/AluminiumCase/P1PartsList/PIC5.png)
 
 ### 必要な道具
 このキットの組立には、以下の道具が必要になります。
