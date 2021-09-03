@@ -34,6 +34,7 @@
 - d.スペーサー　M2 6mm 16個
 - e.リセットスイッチ　2個
 - f.TRRSジャック　2個
+- g.クッションシール 8個
 
 ![小袋の中のもの](imgs/AluminiumCase/P1PartsList/PIC4.png)
 
