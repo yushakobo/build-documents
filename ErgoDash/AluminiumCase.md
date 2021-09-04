@@ -195,7 +195,7 @@ ProMicroを実装する部分にあるキースイッチは、キースイッチ
 ![キースイッチのはんだ付け](imgs/AluminiumCase/P9processingforKeyswitchunderProMicro/PIC2.png)
 
 #### 2-9 ProMicroの下のキースイッチの処理の確認
-ProMicroの下に来るキースイッチの電極の端子が短くカットされていることを確認します。もし、カットされていないようであれば、はんだ付けごとにっぱーでカットしてください。
+ProMicroの下に来るキースイッチの電極の端子が短くカットされていることを確認します。もし、カットされていないようであれば、はんだ付けごとニッパーでカットしてください。
 
 ![キースイッチの処理の確認](imgs/AluminiumCase/P9processingforKeyswitchunderProMicro/PIC3.png)
 
