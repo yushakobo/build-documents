@@ -129,7 +129,7 @@ Quick17はファームウェアとしてqmk_firmwareを使用しています。[
 
 ` qmk flash -kb yushakobo/quick17 -km default `
 
-Note: 2021年10月現在、qmk_toolbox内のファームウェアダウンロードサービスに問題があり、表示されるメニューからダウンロードできない場合があります。その場合は[defaultのhexファイル](hex/readme.md)をダウンロードして書き込むか、qmk configuratorでのキーマップ作成をお試しください
+Note: 2021年10月現在、qmk_toolbox内のファームウェアダウンロードサービスに問題があり、表示されるメニューからダウンロードできない場合があります。その場合は[defaultのhexファイル](hex/readme.md)をダウンロードして書き込むか、[qmk configuratorでのキーマップ作成](https://config.qmk.fm/#/yushakobo/quick17/LAYOUT)をお試しください
 
 入力のテストには[こちら](htps://config.qmk.fm/#/test)が便利です。
 
