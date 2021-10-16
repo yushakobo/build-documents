@@ -2,7 +2,7 @@
 
 ## 必要な部品
 
-![kit_parts_overview](imgs/XXXX.jpg)
+![kit_parts_overview](imgs/IMG_3788.jpg)
 
 |部品名|数量|備考|
 |---|---|---|
@@ -22,7 +22,7 @@
 
 ## オプション部品
 
-![parts_optional_overview](imgs/XXXX.jpg)
+![parts_optional_overview](imgs/IMG_3790.jpg)
 
 |部品名|数量|備考|
 |---|---|---|
@@ -55,7 +55,7 @@
 
 基板上、次の箇所にLEDを取り付け、はんだ付けします
 
-![LEDs_where_to_place](imgs/XXXX.jpg)
+![LEDs_where_to_place](imgs/IMG_3795.png)
 
 LEDにはそれぞれ向きがあり、取り付ける場所によって向きが異なりますのでご注意ください
 
