@@ -1,6 +1,6 @@
 # Quick17 ビルドガイド
 
-## 共通の部品
+## 必要な部品
 
 ![core_parts_overview](imgs/IMG_4770.JPG)
 
