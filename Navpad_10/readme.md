@@ -87,6 +87,10 @@ LEDにはそれぞれ向きがあり、取り付ける場所によって向き�
 
 ![place_promicro](imgs/XXXX.jpg)
 
+このとき、ダイオードやリセットスイッチを取り付けた基板とは***はんだ付けしません***
+
+![only_solder_promicro_with_conthru](imgs/XXXX.jpg)
+
 ### 5. プレートの準備
 
 トッププレート右上のProMicroカバー部分を折り取ります
@@ -97,7 +101,7 @@ LEDにはそれぞれ向きがあり、取り付ける場所によって向き�
 
 ![snap_to_use_RENC](imgs/XXXX.jpg)
 
-折り取った部分はささくれになり、怪我の原因となる場合があるため、やすりを用いて表面を整えます
+折り取った部分はささくれになり、怪我の原因となる場合があるため、やすりを用いて端面を整えます
 
 ![cleanup_snaped_lines](imgs/XXXX.jpg)
 
@@ -125,3 +129,12 @@ LEDにはそれぞれ向きがあり、取り付ける場所によって向き�
 
 ![solder_key-switches](imgs/XXXX.jpg)
 
+### 9.ProMicroカバーの取り付け
+
+ProMicroカバー部に短いスペーサーを取り付けます。
+
+![place_standoffs_1](imgs/XXXX.jpg)
+
+### 10. ボトムプレートの取り付け
+
+### 11. キーキャップ/ロータリーエンコーダー用ノブの取り付け
