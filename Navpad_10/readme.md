@@ -59,82 +59,98 @@
 
 LEDにはそれぞれ向きがあり、取り付ける場所によって向きが異なりますのでご注意ください
 
-![LED_directions](imgs/XXXX.jpg)
+![LED_directions](imgs/IMG_3802.jpg)
 
 ### 2. ダイオードのはんだ付け
 
 基板上`[DXX |]`とある位置にダイオードを差し込み、はんだ付けします。このとき、ダイオードにある黒い帯が基板の四角い穴に合うように差し込みます
 
-![diodes_where_to_place](imgs/XXXX.jpg)
+![diodes_where_to_place](imgs/IMG_3812.jpg)
 
-![diodes_direction](imgs/XXXX.jpg)
+![diodes_direction](imgs/IMG_3808.jpg)
 
 長く余ったピンは適当な長さに切りそろえます
 
-![cut_diode_legs](imgs/XXXX.jpg)
+![cut_diode_legs](imgs/IMG_3818.jpg)
 
 ### 3. リセットスイッチのはんだ付け
 
 基板を裏返し、右上の`Reset`とある位置にタクトスイッチを取り付け、はんだ付けします
 
-![place_reset_switch](imgs/XXXX.jpg)
+![place_reset_switch](imgs/IMG_3823.jpg)
 
 ### 4. コンスルーの取り付け
 
 コンスルーの向きを揃えて基板に差し込み、ProMicroとはんだ付けします
 
-![place_contrough](imgs/XXXX.jpg)
+![place_contrough](imgs/IMG_3826.jpg)
 
-![place_promicro](imgs/XXXX.jpg)
+![place_promicro](imgs/IMG_3831.jpg)
 
 このとき、ダイオードやリセットスイッチを取り付けた基板とは***はんだ付けしません***
 
-![only_solder_promicro_with_conthru](imgs/XXXX.jpg)
+![only_solder_promicro_with_conthru](imgs/IMG_3834.jpg)
 
 ### 5. プレートの準備
 
 トッププレート右上のProMicroカバー部分を折り取ります
 
-![snap_promicro_cover](imgs/XXXX.jpg)
+![snap_promicro_cover](imgs/IMG_3842.jpg)
 
 オプションのロータリーエンコーダーを取り付ける場合は、となりの四角い部分も折り取ります
 
-![snap_to_use_RENC](imgs/XXXX.jpg)
+![snap_to_use_RENC](imgs/IMG_3844.jpg)
 
-折り取った部分はささくれになり、怪我の原因となる場合があるため、やすりを用いて端面を整えます
+折り取った部分はささくれになり、怪我の原因となるため、やすりを用いて端面を整えます
 
-![cleanup_snaped_lines](imgs/XXXX.jpg)
+![cleanup_snaped_lines](imgs/IMG_3848.jpg)
 
 ### 6. キースイッチの取り付け
 
 準備したトッププレートにキースイッチを取り付けます。このとき、右下部のレイアウトによって取り付け位置や向きが異なるので注意します
 
-![put_keyswitches_on](imgs/XXXX.jpg)
+![put_keyswitches_on](imgs/IMG_3849.jpg)
 
-![depends_on_your_layout](imgs/XXXX.jpg)
+![depends_on_your_layout](imgs/IMG_3851.png)
 
 2Uを使うレイアウトの場合、このタイミングで基板にスタビライザーを取り付けます
 
-![place_stabilizer](imgs/XXXX.jpg)
+![place_stabilizer](imgs/IMG_3856.jpg)
 
 ### 7. (オプション)ロータリーエンコーダーの取り付け
 
 中央上部にロータリーエンコーダーを取り付けます
 
-![place_encoder](imgs/XXXX.jpg)
+![place_encoder](imgs/IMG_3857.jpg)
 
 ### 8. キースイッチ、ロータリーエンコーダーのはんだ付け
 
 基板とトッププレートを組み合わせ、キースイッチとロータリーエンコーダーをはんだ付けします
 
-![solder_key-switches](imgs/XXXX.jpg)
+![solder_key-switches](imgs/IMG_3863.jpg)
 
 ### 9.ProMicroカバーの取り付け
 
 ProMicroカバー部に短いスペーサーを取り付けます。
 
-![place_standoffs_1](imgs/XXXX.jpg)
+![place_standoffs_1](imgs/IMG_3866.jpg)
+
+ProMicroカバーを乗せ、ネジ止めします
+
+![cover_your_promicro](imgs/IMG_3868.jpg)
 
 ### 10. ボトムプレートの取り付け
 
+長いほうのスペーサーを取り付けます
+
+![place_standoffs_2](imgs/IMG_3869.jpg)
+
+ボトムプレートのゴム足取り付け目安位置(4箇所)にゴム脚を貼り付け、ネジ止めします
+
+![place_rubber_feet](imgs/IMG_3878.png)
+
 ### 11. キーキャップ/ロータリーエンコーダー用ノブの取り付け
+
+キーキャップ、ロータリーエンコーダー用ノブを取り付けて完成です
+
+![put_keycaps_on](imgs/IMG_3887.jpg)
