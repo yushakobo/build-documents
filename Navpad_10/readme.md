@@ -105,7 +105,7 @@ Navpad 1.0はファームウェアとしてqmk_firmwareを使用しています�
 
 ファームウェアの書き込みが完了したら、はんだ付けしたLEDが白色に光ることを確認しましょう(CapsLockやNumLockがオンになっていると一部は青く点灯します)
 
-![light_up_leds](imgs/XXXX.jpg)
+![light_up_leds](imgs/IMG_3894.jpg)
 
 ### 6. プレートの準備
 
