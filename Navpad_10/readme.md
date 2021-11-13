@@ -4,7 +4,7 @@
 
 ## 必要な部品
 
-![kit_parts_overview](imgs/IMG_3788.jpg)
+![kit_parts_overview](imgs/IMG_3813.png)
 
 |部品名|数量|備考|
 |---|---|---|
