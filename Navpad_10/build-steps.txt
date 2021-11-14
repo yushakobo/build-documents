@@ -8,9 +8,10 @@ Build steps
 7. Place your key-switches on the top plate.
 8. If you have a plan to use LEDs and rotary encoder,
    now it's time to solder them. 
-9. Put the top plate on, solder your key switches.
+9. Put the top plate on, solder your key-switches.
 10. Flash your firmware and make sure that
     every single key is working properly.
 11. Tighten M2 screws with stand-offs
     to hold top and bottom plates.
-12. Done!
+    (Also, don't forget ProMicro cover!)
+12. Place your keycaps on, then it's complete!
