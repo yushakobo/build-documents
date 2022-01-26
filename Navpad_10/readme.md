@@ -2,7 +2,7 @@
 
 ※本ビルドガイドの画像はお手元の製品と一部異なる場合があります
 
-Navpad 1.0のカスタマイズについては[こちら](formore/readme.md)
+Aluminum feetやアクリルプレートの使用など、Navpad 1.0のカスタマイズについては[こちら](formore/readme.md)
 
 ## 必要な部品
 

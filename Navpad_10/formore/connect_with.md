@@ -1,6 +1,9 @@
 # Navpad 1.0をほかのキーボードと接続する<br />(上級者向けの改造)
 
-[キーボードアクリルプレート - Navpad 1.0](https://shop.yushakobo.jp/products/keyboard_acrylic_plate)をご注文いただくことで、Navpad 1.0基板上にTRRSジャックを実装することができます。
+この機能は基本的にサポート外のものとなります。ご自身にて調査の上、ご活用ください
+。
+
+[『キーボードアクリルプレート - Navpad 1.0』](https://shop.yushakobo.jp/products/keyboard_acrylic_plate)をご注文いただくことで、Navpad 1.0基板上にTRRSジャックを実装することができます。
 
 ### 追加で必要になる部品
 
@@ -37,7 +40,7 @@
 
 ### 5a. ファームウェアの書き込み
 
-`Helix rev3 LP`右手側と接続する場合は、`default`ではなく`yushakobo/navpad/10_helix_r`を使用します。
+`Helix rev3 LP`右手側と接続する場合、ファームウェアは`yushakobo/navpad/10`ではなく`yushakobo/navpad/10_helix_r`を使用します。
 
 `Helix rev3 LP`**左**手側やそのほかのキーボードと接続する場合は、`yushakobo/navpad/10_helix_r`をもとにファームウェアを構成して書き込みます。
 
