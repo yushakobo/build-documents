@@ -4,7 +4,7 @@
 
 ## 必要な部品
 
-![kit_parts_overview](imgs/XXXX.jpg)
+![kit_parts_overview](imgs/IMG_3996.JPG)
 
 |部品名|数量|備考|
 |---|---|---|
@@ -98,11 +98,13 @@ LEDにはそれぞれ向きがあり、取り付ける場所によって向き�
 ProMicro付属のピンヘッダを使用し、基板にProMicroをはんだ付けします<br />
 ピンの短いほうを基板へ、長いほうをProMicro側へ向け、取り付けます
 
-![place_pin-header](imgs/XXXX.jpg)
+![place_pin-header](imgs/IMG_3985.JPG)
 
 それぞれはんだ付けし、余分なピンは適当な長さに切りそろえます
 
-![cut_their_pins](imgs/XXXX.jpg)
+![cut_their_pins](imgs/IMG_3994.JPG)
+
+\*切りそろえたピンを再びはんだごてで温めると
 
 
 ### 4a. (オプション) コンスルーを使用したProMicroの取り付け
@@ -123,7 +125,9 @@ Navpad 1.0はファームウェアとしてqmk_firmwareを使用しています�
 
 コマンドラインからの書き込みを予定している場合は必要な環境のダウンロードに時間がかかることがあるため、前もってダウンロードを進めておくとスムーズです。
 
-`qmk flash -kb yushakobo/navpad/10 -km default`
+`qmk flash -kb yushakobo/navpad/10/rev1 -km default`
+
+\*コマンドラインから書き込む場合は`/rev1`の部分を省略できます
 
 ファームウェアの書き込みが完了したら、はんだ付けしたLEDが白色に光ることを確認しましょう(CapsLockやNumLockがオンになっていると一部は青く点灯します)
 
