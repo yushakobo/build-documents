@@ -5,8 +5,8 @@
 https://github.com/omkbd/ErgoDash/blob/master/Doc/build.md
   
 
-このビルドガイドでは親指なしのレイアウトの組み立てを行っています。
-親指ありの組み立ては以下のページを参照下さい。  
+このビルドガイドでは親指ありのレイアウトの組み立てを行っています。
+親指なしの組み立ては以下のページを参照下さい。  
 [親指なしレイアウト ビルドガイド](ErgoDash_BuildGuide_cut.md)
   
 ## 1.ダイオードを取り付ける
@@ -27,11 +27,11 @@ https://github.com/omkbd/ErgoDash/blob/master/Doc/build.md
 ダイオードをマスキングテープなどで固定するかリードを広げます。  
 基板を裏返してダイオードをはんだ付けします。  
 はんだが富士山のような形になるのが良いはんだ付けです。   
-![ergodash_diode4](imgs/diode4.JPG) 
+![ergodash_diode4](imgs/diode4-2.jpg) 
 
 はんだ付け後、ニッパーでダイオードのリードの根本をカットします
-![ergodash_diode5](imgs/diode5.JPG)
-![ergodash_diode6](imgs/diode6.JPG)
+![ergodash_diode5](imgs/diode5-2.jpg)
+![ergodash_diode6](imgs/diode6-2.jpg)
 
 ## 2.TRRSジャックの取り付け
 使用部品:TRRSジャック  
@@ -92,7 +92,7 @@ https://github.com/omkbd/ErgoDash/blob/master/Doc/build.md
 ![ergodash_SW1](imgs/SW1.JPG)
 ![ergodash_SW2](imgs/SW2.JPG)
 浮きがないように確認し、基板を裏返しスイッチをはんだ付けして固定します。
-![ergodash_SW3](imgs/SW3.JPG)\
+![ergodash_SW3](imgs/SW3.JPG)
 ![ergodash_SW4](imgs/SW4.JPG)
 
 残りのスイッチをしっかりと差し込み、浮きや斜めになってないかを確認してからはんだ付けします。

@@ -10,6 +10,10 @@ Build documentations list.
 
 ## [Helix rev3](helix_rev3/BuildGuide_LP.md)
 
+[![quick17_steel-case](Quick17/imgs/IMG_4945.JPG)](Quick17/readme.md)
+
+## [Quick17](Quick17/readme.md)
+
 [![Navpad_10_complete](Navpad_10/imgs/IMG_3887.jpg)](Navpad_10/readme.md)
 
 ## [Navpad 1.0](Navpad_10/readme.md)
