@@ -4,7 +4,7 @@ Navpad 1.0 の各ボトムプレートには、M4の穴が2箇所開いていま
 
 ### 「チルト用 Aluminum feet セット」の内容
 
-![additional_parts_overview](../imgs/IMG_3967.png)
+![additional_parts_overview](../imgs/IMG_3980.png)
 
 |名称|数量|備考|
 |---|---|---|
@@ -39,6 +39,6 @@ M4 スリムヘッド小ネジを使用し、Aluminum feetを取り付けます<
 
 ### A4. ボトムプレートをネジ止めする
 
-A1で取り外したネジをもとに戻します
+A1で取り外したネジをもとに戻します。このとき、ProMicroのピンとM4 スリムヘッド小ネジが接触する場合は、マスキングテープなどで絶縁します
 
 ![attach_bottom_plate](../imgs/XXXX.jpg)
