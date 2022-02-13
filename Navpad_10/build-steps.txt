@@ -1,0 +1,17 @@
+Build steps
+1. Make sure no parts is missing.
+2. Put Diodes on the PCB, then solder and cut these pins.
+3. Place the reset switch and solder.
+4. Set contrough on the PCB. (DO NOT SOLDER THEM.)
+5. Put Promicro on the contrough, then solder.
+6. Snap the cover of Promicro.
+7. Place your key-switches on the top plate.
+8. If you have a plan to use LEDs and rotary encoder,
+   now it's time to solder them. 
+9. Put the top plate on, solder your key-switches.
+10. Flash your firmware and make sure that
+    every single key is working properly.
+11. Tighten M2 screws with stand-offs
+    to hold top and bottom plates.
+    (Also, don't forget ProMicro cover!)
+12. Place your keycaps on, then it's complete!
