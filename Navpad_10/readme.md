@@ -4,6 +4,8 @@
 
 Aluminum feetやアクリルプレートの使用など、Navpad 1.0のカスタマイズについては[こちら](formore/readme.md)<br />**一部手順が前後する箇所や、レイアウトに指定がある場合がありますので、このビルドガイドの前に必ずご一読ください**
 
+回路図は[こちら](Navpad.pdf)からどうぞ
+
 ## 必要な部品
 
 ![kit_parts_overview](imgs/IMG_3996.JPG)
