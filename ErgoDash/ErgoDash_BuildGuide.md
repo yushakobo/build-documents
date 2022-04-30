@@ -90,7 +90,7 @@ https://github.com/omkbd/ErgoDash/blob/master/Doc/build.md
 ![ergodash_plate3](imgs/plate3.JPG)
 
 【積層アクリル版】外側にネジ止めします
-![ergodash_Laminate1](imgs/Laminate1.JPG)
+![ergodash_Laminate1](imgs/Laminate1.jpg)
 プレート四隅にスイッチを差し込んでから基板にまっすぐ差し込みます。
 ![ergodash_SW1](imgs/SW1.JPG)
 ![ergodash_SW2](imgs/SW2.JPG)
