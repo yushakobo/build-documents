@@ -13,12 +13,14 @@
 |TRRSジャック|2||
 |リセットスイッチ|2||
 |スタビライザー|2||
-|M2 5mmネジ|22||
-|M2 8mmネジ|6||
-|M2スペーサー 6mm|14||
+|M2 5mmネジ|22|積層版は34|
+|M2 8mmネジ|6|積層版は10|
+|M2スペーサー 6mm|14|積層版は22|
 |ゴム足|12||
 
 ![ergodash_parts1](imgs/parts1.jpg)
+積層版はアクリルの構成が異なります
+
 ![ergodash_parts2](imgs/parts2.jpg)
 ![ergodash_parts3](imgs/parts3.jpg)
 部品が不足している場合はお問い合わせよりご連絡下さい。  
