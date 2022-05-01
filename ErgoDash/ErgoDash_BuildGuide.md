@@ -3,12 +3,12 @@
 このページのビルドガイドではオプション機能のUndergrow LEDの取り付けやバックライトLEDの取り付け手順を記載していません。  
 これらのLEDの取り付けをしたい場合は[本家のビルドガイド](https://github.com/omkbd/ErgoDash/blob/master/Doc/build.md)を参照して組み立てを行ってください。  
 https://github.com/omkbd/ErgoDash/blob/master/Doc/build.md
-  
+
 
 このビルドガイドでは親指ありのレイアウトの組み立てを行っています。
 親指なしの組み立ては以下のページを参照下さい。  
 [親指なしレイアウト ビルドガイド](ErgoDash_BuildGuide_cut.md)
-  
+
 ## 1.ダイオードを取り付ける
 使用部品:ダイオード  
 使用工具:ニッパー　はんだごて  
@@ -27,7 +27,7 @@ https://github.com/omkbd/ErgoDash/blob/master/Doc/build.md
 ダイオードをマスキングテープなどで固定するかリードを広げます。  
 基板を裏返してダイオードをはんだ付けします。  
 はんだが富士山のような形になるのが良いはんだ付けです。   
-![ergodash_diode4](imgs/diode4-2.jpg) 
+![ergodash_diode4](imgs/diode4-2.jpg)
 
 はんだ付け後、ニッパーでダイオードのリードの根本をカットします
 ![ergodash_diode5](imgs/diode5-2.jpg)
@@ -36,7 +36,7 @@ https://github.com/omkbd/ErgoDash/blob/master/Doc/build.md
 ## 2.TRRSジャックの取り付け
 使用部品:TRRSジャック  
 使用工具:はんだごて  
-  
+
 内側上部の四角で囲まれている場所にTRRSジャックを**ダイオードが付いている面**に差し込みます。
 ![ergodash_trrs](imgs/ergodash_trrs.png)
 ![ergodash_trrs2](imgs/trrs2.JPG)
@@ -46,7 +46,7 @@ https://github.com/omkbd/ErgoDash/blob/master/Doc/build.md
 ## 3.リセットスイッチの取り付け
 使用部品:リセットスイッチ  
 使用工具:はんだごて  
-  
+
 オレンジに囲まれた場所にリセットスイッチを取り付けます。
 ![ergodash_rsw](imgs/ergodash_rsw.png)
 ×が記載されている場所には差し込まないように注意して下さい。  
@@ -64,7 +64,7 @@ https://github.com/omkbd/ErgoDash/blob/master/Doc/build.md
 ## 4.スタビライザーの取り付け
 使用部品:スタビライザー  
 使用工具:なし  
-  
+
 **2Uサイズ(大きいサイズ)のキーキャップを使用する場合**はスタビライザーを取り付けます。  
 必須部品ではありませんが取り付けを推奨しています。
 
@@ -81,13 +81,16 @@ https://github.com/omkbd/ErgoDash/blob/master/Doc/build.md
 ## 5.キースイッチの取り付け
 使用部品:キースイッチ 5mmねじ(短い方) 6mmスペーサー  
 使用工具:はんだごて  ドライバー
-  
+
 アクリルのトッププレートのフィルムを剥がします。
 ![ergodash_plate1](imgs/plate1.JPG)
 
 5mmねじ(短い方)と6mmスペーサーを取り出し、プレートに固定します。
 ![ergodash_plate2](imgs/plate2.JPG)
 ![ergodash_plate3](imgs/plate3.JPG)
+
+【積層アクリル版】外側にネジ止めします
+![ergodash_Laminate1](imgs/Laminate1.jpg)
 プレート四隅にスイッチを差し込んでから基板にまっすぐ差し込みます。
 ![ergodash_SW1](imgs/SW1.JPG)
 ![ergodash_SW2](imgs/SW2.JPG)
@@ -102,11 +105,11 @@ https://github.com/omkbd/ErgoDash/blob/master/Doc/build.md
 ## 6.ProMicroの取り付け
 使用部品:ProMicro コンスルー(スプリングピンヘッダ)
 使用工具:はんだごて  ニッパー
-  
+
 破損時や故障時に交換可能にするため**ProMicroの袋に同封しているピンヘッダは使用しないでください。(使用しないため廃棄しても構いません)**  
 別袋に同封されているコンスルーを使用します。  
 ![ergodash_promicro1](imgs/promicro1.jpg)
-  
+
 ProMicroの下側にあるスイッチのピンをカットします。  
 画像の水色で囲まれている箇所の基板から飛び出しているピンをカットします。  
 カットしない場合スイッチのピンでProMicroがショートし動作不良や故障などが発生する可能性があります。
@@ -127,11 +130,18 @@ ProMicro側のピンのみをはんだ付けします。
 使用部品:ボトムプレート 5mmねじ(短い方)　8mmねじ(長い方) ゴム足  
 使用工具:精密ドライバー
 
-ボトムプレートとProMicroカバーを取り出し保護紙を剥がします。 
+ボトムプレートとProMicroカバーを取り出し保護紙を剥がします。
 ![ergodash_plate4](imgs/plate4.JPG)
 裏側から重ね合わせてネジ止めをします。  
 場所によって使うねじの長さが異なります。画像を参照し取り付けを行ってください。
 ![ergodash_plate5](imgs/plate5.JPG)
+
+【積層アクリル版】ミドルパーツがありますので、図の向きで2つずつスペーサーに嵌めていきます。
+![ergodash_Laminate5](imgs/Laminate5.jpg)
+![ergodash_Laminate2](imgs/Laminate2.jpg)
+![ergodash_Laminate3](imgs/Laminate3.jpg)
+【積層アクリル版】ボトムプレートを乗せネジ止めします。場所によって使うねじの長さが異なります。画像を参照し取り付けを行ってください。
+![ergodash_Laminate4](imgs/Laminate4.jpg)
 
 ゴム足を底面四隅に貼り付けます。
 ![ergodash_plate6](imgs/plate6.JPG)
