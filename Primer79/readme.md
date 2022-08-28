@@ -121,7 +121,7 @@ Primer79のお買い上げありがとうございます。
 基板に取り付ける向きは基板の印刷を確認してください。  
 `[|◁]`の三角形の向いた先にダイオードのラインが来るように差し込みます。  
 ![Diode-4](imgs/Diode-4.JPG)  
-※Primer79は基板裏側から見た時に、すべてのダイオードの左側にラインが来るように向きを揃えています。  
+※Primer79は基板裏側から見た時に、全てのダイオードの左側にラインが来るように向きを揃えています。  
 
 **Point:ダイオードを差し込んだままだとハンダ付けをする際に基板をひっくり返す際に落ちてしまいます。**  
 **落ちないようにダイオードの足をちょっと曲げるか、マスキングテープなどで素子を留めて上げると後の工程をスムーズに進める事ができます。**
@@ -261,6 +261,8 @@ Remapで正常に認識できたらテストモードを開き、ピンセット
 全て正常だと下図のように全てのキーが青くなります。
 ![Remap-5](imgs/Remap-5.png)  
 
+**Point:右上の4キー分はロータリーエンコーダの回転部分です。**  
+**この4キー分は青く反応しなくても正常です。**  
 **Point:ダイオードの番号とスイッチの番号はリンクしています。**  
 **違う部分のキーが反応した場合はダイオードの向きを確認してください。**  
 **Point:もし違う部分のキーが反応した場合はスイッチに対応するダイオードの向きを確認してください。**  
@@ -286,8 +288,6 @@ Remapで正常に認識できたらテストモードを開き、ピンセット
 ![Stab-2](imgs/Stab-2.JPG)  
 ![Stab-3](imgs/Stab-3.JPG)  
 
-**Point:右上の4キー分はロータリーエンコーダの回転部分です。**  
-**この4キー分は青く反応しなくても正常です。**  
 **Point:スタビライザーはそのまま使用すると音が大きく満足度の低下につながるため、ぜひ潤滑剤用いて潤滑してください。**  
 **潤滑剤は[こちら](https://shop.yushakobo.jp/collections/accessory/products/lubricants)。**  
 **[こちら](https://salicylic-acid3.hatenablog.com/entry/stabilizer-lubrication)のサイトも参考になります。**  
@@ -392,8 +392,8 @@ BLE Micro Pro Web Configuratorの上から順番に実行してください。
 カットしたアクリルをケースとして用いることで、自由な配色のケースを装着することが出来ます。  
 ケースを装着すると剛性が向上し、堅牢かつ良好な打鍵感を体験できます。
 
-![acrylic_case_assembly_Front](imgs/acrylic_case_assembly_Front.jpg)  
-![acrylic_case_assembly_Back](imgs/acrylic_case_assembly_Back.jpg)
+![acrylic_case_assembly_Front](imgs/acrylic_case_assembly_Front.JPG)  
+![acrylic_case_assembly_Back](imgs/acrylic_case_assembly_Back.JPG)
 
 ### EX3-1．ボトムプレートにスペーサーを取り付けてネジ止め
 
