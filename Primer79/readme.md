@@ -1,7 +1,7 @@
 # Primer79 ビルドガイド
 
-![completed_assembly_Front](imgs/Completed_assembly_Front.jpg)
-![completed_assembly_Back](imgs/Completed_assembly_Back.jpg)
+![completed_assembly_Front](imgs/Completed_assembly_Front.JPG)
+![completed_assembly_Back](imgs/Completed_assembly_Back.JPG)
 
 Primer79のお買い上げありがとうございます。
 
@@ -25,18 +25,18 @@ Primer79のお買い上げありがとうございます。
 |---|---|---|---|
 |基板|1|![PCB](imgs/PCB.JPG)|
 |スルーホールダイオード|81|![Diode](imgs/Diode.JPG)|表面実装タイプにも対応（別途購入）|
-|スタビライザー(2u)|4|![Stab2u](imgs/Stab2u.JPG)|
+|スタビライザー(2u)|4|![Stab2u](imgs/Stab2u.jpg)|
 |スタビライザー(6.25u)|1|![Stab625u](imgs/Stab625u.JPG)|
-|ProMicro|1|![ProMicro](imgs/ProMicro.JPG)|
-|リセットスイッチ|1|![ResetSwitch](imgs/ResetSwitch.JPG)|
-|ゴム足|8|![Cushion](imgs/Cushion.JPG)|
+|ProMicro|1|![ProMicro](imgs/ProMicro.jpg)|
+|リセットスイッチ|1|![ResetSwitch](imgs/ResetSwitch.jpg)|
+|ゴム足|8|![Cushion](imgs/Cushion.jpg)|
 
 ### １－１．オプション部品（ロータリーエンコーダ）
 
 |名称|数量|画像|備考|
 |---|---|---|---|
-|ロータリーエンコーダ|2|![Encoder](imgs/Encoder.JPG)|ご購入は[こちら](https://shop.yushakobo.jp/products/3762)<br>プッシュスイッチ付きのものにも対応|
-|ノブ|2|![Knob](imgs/Knob.JPG)|ご購入は[こちら](https://shop.yushakobo.jp/products/3762)<br>直径18mm以下のもの|
+|ロータリーエンコーダ|2|![Encoder](imgs/Encoder.jpg)|ご購入は[こちら](https://shop.yushakobo.jp/products/3762)<br>プッシュスイッチ付きのものにも対応|
+|ノブ|2|![Knob](imgs/Knob.jpg)|ご購入は[こちら](https://shop.yushakobo.jp/products/3762)<br>直径18mm以下のもの|
 
 ### １－２．オプション部品（アクリルケース）
 
@@ -119,7 +119,7 @@ Primer79のお買い上げありがとうございます。
 ダイオードの向きは円筒形の素子に印刷されたラインから判断します。  
 ![Diode-3](imgs/Diode-3.JPG)  
 基板に取り付ける向きは基板の印刷を確認してください。  
-`[▷|]`の三角形の向いた先にダイオードのラインが来るように差し込みます。
+`[|◁]`の三角形の向いた先にダイオードのラインが来るように差し込みます。  
 ![Diode-4](imgs/Diode-4.JPG)  
 ※Primer79は基板裏側から見た時に、すべてのダイオードの左側にラインが来るように向きを揃えています。  
 
@@ -163,7 +163,7 @@ Primer79のお買い上げありがとうございます。
 
 ### EX1．表面実装ダイオードのハンダ付け
 
-表面実装ダイオードは慣れるとリードダイオードより早くハンダ付けをすることが可能です。
+表面実装ダイオードは慣れるとリードダイオードより早くハンダ付けをすることが可能です。  
 もし表面実装ダイオードの実装を練習する場合、カーソルキー付近の練習ゾーンをご活用ください。  
 ![Diode-10](imgs/Diode-10.JPG)  
 **Point:練習ゾーンは回路には使用していません。**  
@@ -310,8 +310,8 @@ Remapで正常に認識できたらテストモードを開き、ピンセット
 
 キーキャップを取り付けます。
 
-![completed_assembly_Front](imgs/Completed_assembly_Front.jpg)
-![completed_assembly_Back](imgs/Completed_assembly_Back.jpg)
+![completed_assembly_Front](imgs/Completed_assembly_Front.JPG)  
+![completed_assembly_Back](imgs/Completed_assembly_Back.JPG)
 
 ## 9. ゴム足の貼り付け
 
@@ -321,7 +321,7 @@ Remapで正常に認識できたらテストモードを開き、ピンセット
 
 ## 10. キーマップを変更する
 
-あなたが使用しやすいようにキーマップを変更してください。
+あなたが使用しやすいようにキーマップを変更してください。  
 キーマップの変更はRemapを使用すると便利です。
 
 https://remap-keys.app/configure
@@ -338,7 +338,7 @@ ProMicroの代わりにBLE Micro Proを使うことでBluetoothを用いた無�
 ### EX2-1．BLE Micro Proのハンダ付け
 
 基本的に取付方法はProMicroと同じですが、ピンヘッダだけは13ピンのものを使用する必要があります。  
-表側の右側に13ピンのピンヘッダーを使用してください。
+表側の右側に13ピンのピンヘッダーを使用してください。  
 左側の一番上の穴は開けておいて大丈夫です。  
 ![BMP-1](imgs/BMP-1.JPG)  
 
@@ -353,19 +353,19 @@ ProMicroの代わりにBLE Micro Proを使うことでBluetoothを用いた無�
 ![BMP-3](imgs/BMP-3.JPG)  
 ![BMP-4](imgs/BMP-4.JPG)  
 
-ショットキーバリアダイオードとチップコンデンサ、スライドスイッチをハンダ付けします。
+ショットキーバリアダイオードとチップコンデンサ、スライドスイッチをハンダ付けします。  
 ショットキーバリアダイオードとチップコンデンサのハンダ付けは表面実装ダイオードの取り付けと同じです。  
 
 まず基板に予備ハンダと呼ばれるハンダをちょっと盛っておきます。  
 その後、ピンセットでダイオードやコンデンサを持ち、予備ハンダをハンダごてで溶かしつつダイオードやコンデンサを基板に設置します。  
-長く温めすぎてハンダが尖ってしまったら、フラックスを追加してあげるとうまくいきやすいです。
+長く温めすぎてハンダが尖ってしまったら、フラックスを追加してあげるとうまくいきやすいです。  
 **Point:表面実装ダイオードが不安な場合、練習ゾーンであらかじめ練習しておくと安心です。**  
 **電池用のショットキーバリアダイオードとスイッチ用のスイッチングダイオードは異なります。**  
 **スイッチングダイオードを電池に使用してしまうと使用できる電池容量の低下を招きます。**  
 
 ![BMP-5](imgs/BMP-5.JPG)  
 
-最後にスライドスイッチをハンダ付けします。
+最後にスライドスイッチをハンダ付けします。  
 スライドスイッチは下の写真の赤枠部だけ使用しますが、他のピンも固定のために少量ハンダ付けしておきます。
 
 ![BMP-6](imgs/BMP-6.JPG)  
@@ -373,7 +373,7 @@ ProMicroの代わりにBLE Micro Proを使うことでBluetoothを用いた無�
 **Check:ハンダの量が多いとスイッチの内部にハンダが流れ込み、スイッチが動かなくなる場合があります。**  
 **ハンダごてで加熱しすぎるとスイッチのノブが取れやすくなる場合があります。**  
 
-![BMP-7](imgs/BMP-7.JPG)  
+![BMP-7](imgs/BMP-7.jpg)  
 
 ### EX2-3．ファームウェアの書き込み
 
@@ -392,28 +392,28 @@ BLE Micro Pro Web Configuratorの上から順番に実行してください。
 カットしたアクリルをケースとして用いることで、自由な配色のケースを装着することが出来ます。  
 ケースを装着すると剛性が向上し、堅牢かつ良好な打鍵感を体験できます。
 
-![acrylic_case_assembly_Front](imgs/acrylic_case_assembly_Front.jpg)
+![acrylic_case_assembly_Front](imgs/acrylic_case_assembly_Front.jpg)  
 ![acrylic_case_assembly_Back](imgs/acrylic_case_assembly_Back.jpg)
 
 ### EX3-1．ボトムプレートにスペーサーを取り付けてネジ止め
 
 まず本工程で使用する部品を確認します。  
 一番底面のプレート(3mm)です。  
-![Acrylic-1](imgs/Acrylic-1.PNG)
+![Acrylic-1](imgs/Acrylic-1.png)
 
 基板にすぐ下のプレート(3mm)です。  
 部品の干渉を避けるためにフレーム状になっています。  
-![Acrylic-2](imgs/Acrylic-2.PNG)
+![Acrylic-2](imgs/Acrylic-2.png)
 
 チルト用の足にするプレート(5mm)です。  
 左用のものはネジ穴が2つ、右用のものはネジ穴が3つになっています。  
-![Acrylic-3](imgs/Acrylic-3.PNG)
+![Acrylic-3](imgs/Acrylic-3.png)
 
 手前側は一番底面のプレート、基板下のプレートを重ね、スペーサーを落とし込んで裏側から5mmのネジで止めます。  
-![Acrylic-5](imgs/Acrylic-5.PNG)
+![Acrylic-5](imgs/Acrylic-5.png)
 
 後ろ側はチルト用のプレート、一番底面のプレート、基板下のプレートを重ね、スペーサーを落とし込んで裏側から10mmのネジで止めます。  
-![Acrylic-4](imgs/Acrylic-4.PNG)
+![Acrylic-4](imgs/Acrylic-4.png)
 
 ### EX3-2．ボトムプレートに基板、トッププレートを取り付けてネジ止め
 
@@ -421,37 +421,37 @@ BLE Micro Pro Web Configuratorの上から順番に実行してください。
 
 基板にすぐ上のプレート(5mm)です。  
 部品の干渉を避けるためにフレーム状になっています。  
-![Acrylic-6](imgs/Acrylic-6.PNG)
+![Acrylic-6](imgs/Acrylic-6.png)
 
 一番上にくるプレート(5mm)です。  
-![Acrylic-7](imgs/Acrylic-7.PNG)
+![Acrylic-7](imgs/Acrylic-7.png)
 
-この2つのプレートは同じようですが、微妙に差があります。
-見分けるポイントは下図の通りバックスペースキーのすぐ上です。
-基板のすぐ上に来るプレートは途中から細くなっています。
-![Acrylic-8](imgs/Acrylic-8.PNG)
+この2つのプレートは同じようですが、微妙に差があります。  
+見分けるポイントは下図の通りバックスペースキーのすぐ上です。  
+基板のすぐ上に来るプレートは途中から細くなっています。  
+![Acrylic-8](imgs/Acrylic-8.png)
 
 EX3-1でボトムプレートを重ねたものの上に基板とプレート2種を重ね、12mmのネジで**左上、左下、右下けを軽く**ネジ止めをします。  
-![Acrylic-9](imgs/Acrylic-9.PNG)
+![Acrylic-9](imgs/Acrylic-9.png)
 
-軽くネジ止めをしたあと、キーキャップを取り付けて実際に押しながら干渉をチェックし、干渉しないことを確認出来たら他のネジも取り付けて増し締めします。
-![Acrylic-10](imgs/Acrylic-10.JPG)
+軽くネジ止めをしたあと、キーキャップを取り付けて実際に押しながら干渉をチェックし、干渉しないことを確認出来たら他のネジも取り付けて増し締めします。  
+![Acrylic-10](imgs/Acrylic-10.jpg)
 
 ### EX3-3．ProMicroをカバーするプレートを取り付けてネジ止め
 
 まず本工程で使用する部品を確認します。  
 
-基板にすぐ上のプレート(5mm)です。
+基板にすぐ上のプレート(5mm)です。  
 コイン電池を避けるような形状になっています。  
 同じものが2つあります
-![Acrylic-11](imgs/Acrylic-11.PNG)
+![Acrylic-11](imgs/Acrylic-11.png)
 
 ProMicroをカバーするプレート(3mm)です。  
-![Acrylic-12](imgs/Acrylic-12.PNG)
+![Acrylic-12](imgs/Acrylic-12.png)
 
-まず基板の上に2枚のプレートを置き、その上にProMicroをカバーするプレートを重ね、15mmのキャップボルト（指で回せるように背が高くなっているボルト）を使って4箇所ネジ止めします。
-![Acrylic-13](imgs/Acrylic-13.PNG)  
-![Acrylic-14](imgs/Acrylic-14.PNG)
+まず基板の上に2枚のプレートを置き、その上にProMicroをカバーするプレートを重ね、15mmのキャップボルト（指で回せるように背が高くなっているボルト）を使って4箇所ネジ止めします。  
+![Acrylic-13](imgs/Acrylic-13.png)  
+![Acrylic-14](imgs/Acrylic-14.png)
 
 ### EX3-4．ゴム足を貼り付ける
 
