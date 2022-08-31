@@ -28,6 +28,7 @@ Primer79のお買い上げありがとうございます。
 |スタビライザー(2u)|4|![Stab2u](imgs/Stab2u.jpg)|
 |スタビライザー(6.25u)|1|![Stab625u](imgs/Stab625u.JPG)|
 |ProMicro|1|![ProMicro](imgs/ProMicro.jpg)|
+|13ピンソケット|2|![Pinsocket](imgs/Pinsocket.JPG)|
 |リセットスイッチ|1|![ResetSwitch](imgs/ResetSwitch.jpg)|
 |ゴム足|8|![Cushion](imgs/Cushion.jpg)|
 
@@ -169,20 +170,41 @@ Primer79のお買い上げありがとうございます。
 **Point:練習ゾーンは回路には使用していません。**  
 **存分に練習してください。**  
 
-## 2. ProMicroとピンヘッダのハンダ付け
+## 2. ProMicroとピンヘッダ/13ピンソケットのハンダ付け
 
 **Check:ProMicroの裏表に十分に注意してください。**  
-**逆に取り付けてしまった場合、リカバリーするのはとても大変です。**  
+**逆に取り付けてしまった場合、ピンヘッダを取り外すのはとても大変です。**  
 
 **Check:無線対応をしたい場合、ProMicroの代わりにBLE Micro Proをハンダ付けします。**  
-**ProMicroを先に取り付けてしまった場合、取り外すのはとても大変です。**  
+**この場合も裏表に十分注意してください。**  
 **後述の「EX2．無線対応」を変わりに参照してください。**  
 
-### 2-1．ProMicroの仮止め
+### 2-1．ピンソケット/ピンヘッダの差し込み
+
+**Check:以下はPrimer16の画像を使用していますが、Primer79も同様です。**  
+
+ピンソケットを基板の **表側** から差し込みます。  
+
+![Pinsocket-1](imgs/Pinsocket-1.JPG)  
+
+ピンヘッダの短い方をピンソケットの上に当てます。  
+**Check:ピンソケットの一番上のピンを開けておきます。**  
+**Point:この時点では奥まで挿さなくても大丈夫です。**  
+
+![Pinsocket-2](imgs/Pinsocket-2.JPG)  
+
+ProMicroをピンヘッダに通します。  
+**Check:まだこの時点ではゆるくてOKです。**  
+![Pinsocket-3](imgs/Pinsocket-3.JPG)  
+
+ProMicroの両端を持ち、まっすぐ押してピンヘッダをピンソケットに押し込んでいきます。  
+横からピンヘッダが見えないことを確認します。  
+![Pinsocket-4](imgs/Pinsocket-4.JPG)  
+
+### 2-2．ProMicroの仮止め
 
 ピンヘッダの短い方を基板の **表側** から差し込み、その後ピンヘッダの長い側からProMicroを差し込みます。  
 
-![ProMicro-1](imgs/ProMicro-1.JPG)  
 ![ProMicro-2](imgs/ProMicro-2.JPG)  
 
 このとき、ProMicroの向きに十分に注意します。  
@@ -194,7 +216,7 @@ ProMicroとピンヘッダの **一番上だけ** をハンダ付けします。
 ![ProMicro-3](imgs/ProMicro-3.JPG)  
 ![ProMicro-4](imgs/ProMicro-4.JPG)  
 
-ProMicroが斜めになっていたり、浮いていたりしないか確認します。  
+ProMicroとピンソケットが斜めになっていたり、浮いていたりしないか確認します。  
 ※もし斜めになっていたり浮いていた場合はもう一度ハンダごてで温めて直してください。
 
 裏側も同様に **一番上だけ** をハンダ付けし、浮いていないか確認します。  
@@ -203,7 +225,7 @@ ProMicroが斜めになっていたり、浮いていたりしないか確認し
 ![ProMicro-5](imgs/ProMicro-5.JPG)  
 ![ProMicro-6](imgs/ProMicro-6.JPG)  
 
-### 2-2．ProMicroのハンダ付け
+### 2-3．ProMicroのハンダ付け
 
 **Check:ピンヘッダをニッパーで切る際、勢いよく飛んで怪我をする可能性があります。**  
 
@@ -218,7 +240,7 @@ ProMicroが斜めになっていたり、浮いていたりしないか確認し
 **飛ぶ際に目に刺さったりすると非常に危険ですし、落ちた切れ端を踏むと刺さります。**  
 **必ず飛ばないようにピンヘッダを押さえながら切り取り、作業を中断する際は必ず片付けてください。**
 
-ピンヘッダをハンダ付けする。  
+ピンソケットをハンダ付けする。  
 
 ![ProMicro-9](imgs/ProMicro-9.JPG)  
 ![ProMicro-10](imgs/ProMicro-10.JPG)  
