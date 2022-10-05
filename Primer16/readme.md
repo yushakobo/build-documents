@@ -258,6 +258,38 @@ ProMicroとピンソケットが斜めになっていたり、浮いていたり
 Primer16はファームウェアとしてqmk_firmwareを使用しています。  
 Remapのカタログ機能を用いてファームウェアの書き込みを行います。
 
+※BLE Micro Proの書き込みは本ビルドガイドの末尾の`EX2-3．ファームウェアの書き込み`を参照してください。
+
+https://remap-keys.app/catalog/bxIyrAZHGcJBC9uxH85O/firmware
+
+ファームウェアの書き込みが完了したらRemapのコンフィギュレータ画面を開きます。  
+
+https://remap-keys.app/configure
+
+FLASHをクリックします。
+
+![Remap-1](imgs/Remap-1.png)  
+
+通常のProMicroは「caterina」を、Elite-Cは「dfu」を選択してからFLASHをクリックします。  
+※「dfu」を使用しての書き込みは別途Zadigというツールを用いた作業が必要になる場合があります。
+
+![Remap-2](imgs/Remap-2.png)  
+
+下図のように小ウインドウに「Arduino Micro」等が表示されることを確認します。  
+表示されない場合、ケーブルや接続するポートを変更して試してみます。
+
+![Remap-6](imgs/Remap-6.png)  
+
+リセットスイッチを押すと一瞬USB機器が抜けたような音がするので先程の小ウインドウのArduino Microのポート番号が変化したことを確認し、素早く「接続」をクリック。  
+（本ビルドガイドの図例の場合、COM17がCOM18に変化）  
+ポート番号が変化しない場合、リセットを素早く2回実施する等も試してみてください。  
+
+![Remap-7](imgs/Remap-7.png)  
+
+ファームウェアの書き込みが完了したら下図のようにメッセージの最後に「successfully」が表示されます。
+
+![Remap-8](imgs/Remap-8.png)  
+
 ファームウェアの書き込みが完了したらRemapのコンフィギュレータ画面を開きます。  
 
 https://remap-keys.app/configure
@@ -377,7 +409,11 @@ ProMicroの代わりにBLE Micro Proを使うことでBluetoothを用いた無�
 https://sekigon-gonnoc.github.io/BLE-Micro-Pro-WebConfigurator/
 
 BLE Micro Pro Web Configuratorの上から順番に実行してください。  
-「キーボードごとの設定を書き込む」ボタンから「Primer16」を選択して書き込んでください。  
+上から順番に実行した後、「キーボードごとの設定を書き込む」ボタンから「Primer16」を選択して書き込んでください。  
+
+![BMP-8](imgs/BMP-8.png)  
+![BMP-9](imgs/BMP-9.png)  
+
 書き込み後は「3. リセットスイッチのハンダ付け」と同様の手順となります。  
 
 **Point:Bluetooth接続が不安定、キーマップの書き換えが出来ない、などのBLE Micro Pro特有の問題については[こちら](https://github.com/sekigon-gonnoc/BLE-Micro-Pro/blob/master/docs/FAQ.md)のFAQを確認してください。**  
