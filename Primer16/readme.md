@@ -257,6 +257,7 @@ ProMicroとピンソケットが斜めになっていたり、浮いていたり
 
 Primer16はファームウェアとしてqmk_firmwareを使用しています。  
 Remapのカタログ機能を用いてファームウェアの書き込みを行います。
+
 ※BLE Micro Proの書き込みは本ビルドガイドの末尾の`EX2-3．ファームウェアの書き込み`を参照してください。
 
 https://remap-keys.app/catalog/bxIyrAZHGcJBC9uxH85O/firmware

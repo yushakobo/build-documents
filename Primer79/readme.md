@@ -267,6 +267,7 @@ ProMicroとピンソケットが斜めになっていたり、浮いていたり
 ## 4. ファームウェアの書き込みと動作確認
 
 Primer79はファームウェアとしてqmk_firmwareを使用しています。  
+
 Remapのカタログ機能を用いてファームウェアの書き込みを行います。  
 ※BLE Micro Proの書き込みは本ビルドガイドの末尾の`EX2-3．ファームウェアの書き込み`を参照してください。
 
@@ -431,10 +432,12 @@ ProMicroの代わりにBLE Micro Proを使うことでBluetoothを用いた無�
 https://sekigon-gonnoc.github.io/BLE-Micro-Pro-WebConfigurator/
 
 BLE Micro Pro Web Configuratorの上から順番に実行してください。  
+
 上から順番に実行した後、「キーボードごとの設定を書き込む」ボタンから「Primer79」を選択して書き込んでください。  
 
 ![BMP-8](imgs/BMP-8.png)  
 ![BMP-9](imgs/BMP-9.png)  
+
 
 書き込み後は「3. リセットスイッチのハンダ付け」と同様の手順となります。  
 
