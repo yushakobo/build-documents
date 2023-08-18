@@ -30,13 +30,14 @@ Ergo68のお買い上げありがとうございます。
 |ボトムプレート|2|![Bottom_Plate](imgs/Bottom_Plate.JPG)|
 |カバープレート|2|![Cover_Plate](imgs/Cover_Plate.JPG)|
 |ProMicro|2|![ProMicro](imgs/ProMicro.JPG)|
-|コンスルー|4|![Conthrough](imgs/Conthrough.JPG)|
+|コンスルー（12ピン）|4|![Conthrough](imgs/Conthrough.JPG)|
 |リセットスイッチ|2|![ResetSwitch](imgs/ResetSwitch.JPG)|
 |TRRSジャック|2|![TRRS](imgs/TRRS.JPG)|
 |ネジ（4mm）|28|![Screw](imgs/Screw.JPG)|
-|スペーサー（7mm）|14|![Spacer](imgs/Spacer.JPG)|
-|スペーサー・オスメス（4mm）|8|![Spacer](imgs/Spacer.JPG)|
-|ゴム足|8|![Cushion](imgs/Cushion.JPG)|
+|スペーサー（7mm）|14|![Spacer](imgs/Spacer7mm.JPG)|
+|スペーサー・オスメス（4mm）|8|![Spacer](imgs/Spacer4mm.JPG)|
+|ゴム足(小)|4|![Cushion](imgs/Cushion.JPG)|
+|ゴム足(大)|4|![Cushion](imgs/Cushion.JPG)|
 
 ### １－１．オプション部品（電池部品キット）
 
@@ -58,8 +59,8 @@ Ergo68のお買い上げありがとうございます。
 |チップコンデンサ|2|![Condenser](imgs/Condenser.JPG)|
 |スライドスイッチ|2|![SlideSW](imgs/SlideSW.JPG)|
 |カバープレート（単4電池用）|2|![Cover_Plate_AAA](imgs/Cover_Plate_AAA.JPG)|
-|スペーサー・オスメス（7mm）|8|![Spacer](imgs/Spacer.JPG)|
-|ゴム足|8|![Cushion](imgs/Cushion.jpg)|
+|スペーサー・オスメス（8mm）|8|![Spacer](imgs/Spacer.JPG)|
+|ゴム足(大)|4|![Cushion](imgs/Cushion.jpg)|
 
 ### １－３．オプション部品（ミドルプレート）
 
@@ -167,7 +168,7 @@ Ergo68はファームウェアとしてqmk_firmwareを使用しています。
 Remapのカタログ機能を用いてファームウェアの書き込みを行います。  
 **Check:※BLE Micro Proの書き込みは本ビルドガイドの末尾の`EX1-5．ファームウェアの書き込み`を参照してください。**  
 
-https://remap-keys.app/catalog/5eoNdoO1AkjACZNz344g/firmware
+https://remap-keys.app/catalog/qIgO7rOq7GMRsGf6QhlY/firmware
 
 ファームウェアの書き込みが完了したらRemapのコンフィギュレータ画面を開きます。  
 
@@ -326,12 +327,15 @@ BLE Micro Proの他に[LPME-IO](https://shop.yushakobo.jp/products/lpme-io2a)を
 **Check:BLE Micro Proはコンスルーを用いる場合はハンダ付けは不要です。**  
 **LPME-IOの場合も同様ですが、LPME-IOのマイコンボードへのジャンパが必要です。**  
 
-コンスルーは以下のように取り付けます。（LPME-IOでも同様）  
+13ピンコンスルー（別売）を使用する場合はそのまま使用してください。（推奨）  
+キット同梱の12ピンコンスルーをBLE Micro Proで流用する場合は、以下の写真ように取り付けます。（LPME-IOでも同様）  
 BLE Micro Proの（USBコネクタを上として）右上にバッテリー用のピンが有るので、右側だけ1ピン分オフセットしてコンスルーを取り付けます。  
 コンスルーの向きについてはProMicroの取付時と同じく、合わせてください。  
 
 左側![BMP-1](imgs/BMP-1.JPG)  
 右側![BMP-2](imgs/BMP-2.JPG)  
+**※この写真の例は12ピンコンスルーを使用する場合です。**  
+**13ピンコンスルーならオフセットは不要です。**
 
 左側BMP装着例![BMP-3](imgs/BMP-3.JPG)  
 右側BMP装着例![BMP-4](imgs/BMP-4.JPG)  
@@ -434,6 +438,14 @@ BLE Micro Pro Web Configuratorの上から順番に実行してください。
 
 ![BMP-22](imgs/BMP-22.png)  
 ![BMP-23](imgs/BMP-23.png)  
+
+設定を書き込み終わった後、Remap、もしくはBLE Micro Proのリポジトリからデフォルトキーマップを適用します。  
+
+![BMP-22](imgs/BMP-24.png)  
+![BMP-23](imgs/BMP-25.png)  
+
+もしくはGitHubのBLE Micro ProのErgo68のデフォルトキーマップをダウンロードし、BLE Micro Proのリムーバブルメディアにドラッグ・アンド・ドロップします。  
+https://github.com/sekigon-gonnoc/BLE-Micro-Pro/blob/master/AboutDefaultFirmware/keyboards/ergo68/KEYMAP.JSN
 
 書き込み後は「3. リセットスイッチのハンダ付け」と同様の手順となります。  
 
