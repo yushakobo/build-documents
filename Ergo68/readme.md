@@ -1,7 +1,7 @@
 # Ergo68 ビルドガイド
 
-![completed_assembly_Front](imgs/Completed_assembly_Front.JPG)
-![completed_assembly_Back](imgs/Completed_assembly_Back.JPG)
+![completed_assembly_Front](imgs/Completed_assembly_Front.jpg)
+![completed_assembly_Back](imgs/Completed_assembly_Back.jpg)
 
 Ergo68のお買い上げありがとうございます。
 
