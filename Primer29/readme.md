@@ -1,7 +1,7 @@
 # Primer29 ビルドガイド
 
-![completed_assembly_Front](imgs/Completed_assembly_Front.JPG)!!!
-![completed_assembly_Back](imgs/Completed_assembly_Back.JPG)!!!
+![completed_assembly_Front](imgs/Completed_assembly_Front.JPG)  
+![completed_assembly_Back](imgs/Completed_assembly_Back.JPG)  
 
 Primer29のお買い上げありがとうございます。
 
@@ -31,7 +31,7 @@ Primer29のお買い上げありがとうございます。
 |ProMicro|1|![ProMicro](imgs/ProMicro.jpg)|USB Micro-Bタイプのコネクタ|
 |13ピンソケット|2|![Pinsocket](imgs/Pinsocket.JPG)|
 |リセットスイッチ|1|![ResetSwitch](imgs/ResetSwitch.jpg)|
-|スタビライザー（2u）|2|![a](img/a.jpg)|
+|スタビライザー（2u）|3|![stabilizer](imgs/stab.jpg)|
 |ゴム足|4|![Cushion](imgs/Cushion.jpg)|
 
 ### １－１．オプション部品（アクリルケース）
@@ -81,7 +81,7 @@ Primer29のお買い上げありがとうございます。
 
 |名称|備考|
 |---|---|
-|ハンダごて|できるだけ温度調節機能付きのもの|
+|ハンダごて|できるだけ温度調節機能付きのもの<br>温度は320度程度を推奨します。|
 |ハンダ線|0.6mm~0.8mm径程度のもの|
 |ニッパー|
 |ピンセット|基板（スイッチ部分）の導通チェック用（代用可）|
@@ -92,10 +92,11 @@ Primer29のお買い上げありがとうございます。
 ## 組み立ての手順
 
 1. ダイオードのハンダ付け
-1. ProMicroとピンヘッダのハンダ付け
+1. ProMicroとピンヘッダ/13ピンソケットのハンダ付け
 1. リセットスイッチのハンダ付け
 1. ファームウェアの書き込みと動作確認
 1. キースイッチのハンダ付け
+1. スタビライザーの取り付け
 1. キーキャップの取り付け
 1. ゴム足の貼り付け
 1. キーマップを変更する
@@ -193,7 +194,7 @@ Primer29のお買い上げありがとうございます。
 ### 2-1．ピンソケット/ピンヘッダの差し込み
 
 ピンソケットを基板の **表側** から差し込みます。  
-表側はスイッチの番号（SW1、SW2、…など）や、ProMicro部分のピンの説明が書かれている側です。
+表側はProMicro部分のピンの説明が書かれている側です。  
 
 ![Pinsocket-1](imgs/Pinsocket-1.JPG)  
 
@@ -290,21 +291,21 @@ Primer29はファームウェアとしてqmk_firmwareを使用しています。
 ファームウェアはRemapのカタログページにファームウェア書き込むことができます。  
 Google Chromeにてページを開いた上、書き込みを行ってください。  
 
-※BLE Micro Proの書き込みは本ビルドガイドの末尾の`EX1-3．ファームウェアの書き込み`を参照してください。
+※BLE Micro Proの書き込みは本ビルドガイドの末尾の`EX1-3．ファームウェアの書き込み`を参照してください。  
 
-https://remap-keys.app/catalog/CoU6WxxUfBhZEAvNWqTE/firmware
+https://remap-keys.app/catalog/CoU6WxxUfBhZEAvNWqTE/firmware  
 
 FLASHをクリックします。  
 
 ![Remap-1](imgs/Remap-1.png)  
 
 通常のProMicroは「caterina」を、Elite-Cは「dfu」を選択してからFLASHをクリックします。  
-※「dfu」を使用しての書き込みは別途Zadigというツールを用いた作業が必要になる場合があります。
+※「dfu」を使用しての書き込みは別途Zadigというツールを用いた作業が必要になる場合があります。  
 
 ![Remap-2](imgs/Remap-2.png)  
 
 下図のように小ウインドウに「Arduino Micro」等が表示されることを確認します。  
-表示されない場合、ケーブルや接続するポートを変更して試してみます。
+表示されない場合、ケーブルや接続するポートを変更して試してみます。  
 
 ![Remap-6](imgs/Remap-6.png)  
 
@@ -340,7 +341,7 @@ Remapで正常に認識できたらテストモード（Test Matrix Mode）を�
 **もし違う部分のキーが反応した場合はスイッチに対応するダイオードの向きを確認してください。**  
 **ダイオードの番号とスイッチの番号はリンクしています。**  
 
-## 6. キースイッチのハンダ付け
+## 5. キースイッチのハンダ付け
 
 キースイッチを取り付け、ピンをハンダ付けします。  
 机を傷つけないように飛び出たピンを切ってからハンダ付けをしてください。  
@@ -350,6 +351,14 @@ Remapで正常に認識できたらテストモード（Test Matrix Mode）を�
 ![SW-1](imgs/SW-1.JPG)  
 ![SW-2](imgs/SW-2.JPG)  
 ![SW-3](imgs/SW-3.JPG)  
+
+## 6. スタビライザーの取り付け
+
+2Uのキーキャップを取り付ける箇所について、基板の白い印字を元にスタビライザーを取り付けてください。  
+画像では赤くマーキングしている場所に、スタビライザーの金属のワイヤーを取り付けます。  
+![stab-1](imgs/stab-1.png)  
+スタビライザーは穴に対して引っ掛ける爪のようなパーツがあるので、それをPCBに引っ掛けて取り付けます。  
+![stab-2](imgs/stab-2.jpg)  
 
 ## 7. キーキャップの取り付け
 
@@ -367,11 +376,11 @@ Remapで正常に認識できたらテストモード（Test Matrix Mode）を�
 ## 9. キーマップを変更する
 
 あなたが使用しやすいようにキーマップを変更してください。  
-キーマップの変更はRemapを使用すると便利です。
+キーマップの変更はRemapを使用すると便利です。  
 
 https://remap-keys.app/configure
 
-Remapの使用方法は以下のサイトを参考にしてください。
+Remapの使用方法は以下のサイトを参考にしてください。  
 
 https://salicylic-acid3.hatenablog.com/entry/remap-manual
 
@@ -431,7 +440,7 @@ ProMicroの代わりにBLE Micro Proというマイコンボードを使うこ�
 
 裏返してハンダ付けをする際に浮いてしまわないように、マスキングテープなどでホルダーを押さえておきます。
 
-![BMP-3](imgs/BMP-3b.JPG)  
+![BMP-3](imgs/BMP-3b.JPG)   
 ![BMP-4](imgs/BMP-4b.JPG)  
 
 ショットキーバリアダイオードとチップコンデンサ、スライドスイッチをハンダ付けします。
@@ -482,7 +491,6 @@ BLE Micro Pro Web Configuratorの上から順番に実行してください。
 わかりやすさを重視するため、作成手順ではアクリルの表面の保護シートをつけたまま解説を行います。  
 
 ![acrylic_case_assembly_Front](imgs/acrylic_case_assembly_Front.JPG)
-![acrylic_case_assembly_Back](imgs/acrylic_case_assembly_Back.JPG)
 
 ### EX2-1．ボトムプレートにスペーサーを取り付けてネジ止め
 
@@ -501,10 +509,10 @@ BLE Micro Pro Web Configuratorの上から順番に実行してください。
 ![Acrylic-3](imgs/Acrylic-3.png)
 
 手前側は底面のプレート(3mm)、部品プレート(3mm)を重ね、スペーサーを落とし込んで裏側から5mmのネジで止めます。  
-![Acrylic-4](imgs/Acrylic-4.png)
+![Acrylic-4](imgs/Acrylic-4.jpg)
 
 後ろ側はチルト用フットプレート(5mm)、底面のプレート(3mm)、部品プレート(3mm)を重ね、スペーサーを落とし込んで裏側から10mmのネジで止めます。  
-![Acrylic-5](imgs/Acrylic-5.png)
+![Acrylic-5](imgs/Acrylic-5.jpg)
 
 ### EX2-2．ボトムプレートに基板、トッププレートを取り付けてネジ止め
 
@@ -543,10 +551,11 @@ BLE Micro Pro Web Configuratorの上から順番に実行してください。
 ![Acrylic-7c](imgs/Acrylic-7c.png)
 
 EX3-1でボトムプレートを重ねたものの上に基板とプレート2種を重ね、12mmのネジで**手前2箇所だけを軽く**ネジ止めをします。  
-![Acrylic-8](imgs/Acrylic-8.png)
+![Acrylic-8](imgs/Acrylic-8.jpg)
 
 軽くネジ止めをしたあと、キーキャップを取り付けて実際に押しながら干渉をチェックし、干渉しないことを確認出来たら他のネジも取り付けて増し締めします。  
 ![Acrylic-9](imgs/Acrylic-9.jpg)
+![Acrylic-10](imgs/Acrylic-10.jpg)
 
 ### EX2-3．ProMicroをカバーするプレートを取り付けてネジ止め
 
@@ -554,21 +563,21 @@ EX3-1でボトムプレートを重ねたものの上に基板とプレート2�
 
 - ProMicroカバープレート1(3mm)
 ProMicroを避ける形状をしています。  
-![Acrylic-10](imgs/Acrylic-10.png)  
+![Acrylic-11](imgs/Acrylic-11.png)  
 
 - ProMicroカバープレート2(3mm)
 ProMicroを覆う形状をしています。
-![Acrylic-11](imgs/Acrylic-11.png)
+![Acrylic-12](imgs/Acrylic-12.png)
 
 まず基板上面プレート2の上に2枚のプレートを置き、その上にProMicroカバープレート1、ProMicroカバープレート2を順に重ね、18mmのキャップボルト（指で回せるように背が高くなっているボルト）を使って3箇所ネジ止めします。  
-![Acrylic-12](imgs/Acrylic-12.png)  
-![Acrylic-13](imgs/Acrylic-13.png)  
-![Acrylic-14](imgs/Acrylic-14.png)  
+![Acrylic-13](imgs/Acrylic-13.jpg)  
+![Acrylic-14](imgs/Acrylic-14.jpg)  
+![Acrylic-15](imgs/Acrylic-15.jpg)  
 
 ### EX2-4．ゴム足を貼り付ける
 
 裏面にゴム足を貼り付けます。  
-![Acrylic-15](imgs/Acrylic-15.JPG)
+![Acrylic-16](imgs/Acrylic-16.JPG)
 
 ## EX3．ケースフォームの装着
 
@@ -578,11 +587,12 @@ ProMicroを覆う形状をしています。
 
 フォームをスイッチの上に乗せます。  
 フォームには向きがあるので、正しい方向になるよう、画像を確認してください。  
-![Poron-1](img/)
+![Foam-1](imgs/foam-1.jpg)
 
 ## EX3-2. フォームを押し込む
 
 フォームをスイッチの側面に収まるよう、押し込んでいきます。  
 押し込む際は変形しますが、Poronは柔らかいため、最終的には内部に収まります。  
 ピンセットなどのように細長いもので押し込んでみてください。  
-![Poron-1](img/)
+![Poron-2](imgs/foam-2.jpg)
+![Poron-3](imgs/foam-3.jpg)
