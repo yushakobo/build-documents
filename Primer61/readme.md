@@ -31,8 +31,8 @@ Primer61のお買い上げありがとうございます。
 |ProMicro|1|![ProMicro](imgs/ProMicro.jpg)|USB Type-Cタイプのコネクタ|
 |13ピンソケット|2|![Pinsocket](imgs/Pinsocket.JPG)|
 |リセットスイッチ|1|![ResetSwitch](imgs/ResetSwitch.jpg)|
-|スタビライザー（2u）|4|![a](img/stab2U.jpg)|
-|スタビライザー（6.25u）|1|![a](img/stab625U.jpg)|
+|スタビライザー（2u）|4|![stabilizer2U](imgs/stab2U.jpg)|
+|スタビライザー（6.25u）|1|![stabilizer625U](imgs/stab625U.jpg)|
 |ゴム足|8|![Cushion](imgs/Cushion.jpg)|
 
 ### １－１．オプション部品（アクリルケース）
