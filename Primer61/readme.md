@@ -374,7 +374,7 @@ https://shop.yushakobo.jp/pages/stabilizerbuild
 
 下の写真を参考に、基板端の4箇所にゴム足を貼り付けます。
 
-![Feet](imgs/Feet.jpg)
+![Feet](imgs/Feet.png)
 
 ## 9. キーマップを変更する
 
