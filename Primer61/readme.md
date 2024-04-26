@@ -372,7 +372,7 @@ https://shop.yushakobo.jp/pages/stabilizerbuild
 
 ## 8. ゴム足の貼り付け
 
-下の写真を参考に、基板端の4箇所にゴム足を貼り付けます。
+下の写真を参考に、基板端の8箇所にゴム足を貼り付けます。
 
 ![Feet](imgs/Feet.png)
 
