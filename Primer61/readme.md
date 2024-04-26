@@ -394,7 +394,7 @@ https://salicylic-acid3.hatenablog.com/entry/remap-manual
 ## EX1．無線化対応
 
 ProMicroの代わりにBLE Micro Proというマイコンボードを使うことでBluetoothを用いた無線接続を行う事ができます。  
-そのままでもモバイルバッテリー等によるUSB給電を行えますが、[Primer61/29用電池部品セット](hogehoge)の部品を用いることで、単4電池またはコイン電池（CR1632）による完全無線を実現することが出来ます。
+そのままでもモバイルバッテリー等によるUSB給電を行えますが、[Primer61/29用電池部品セット](https://shop.yushakobo.jp)（後日発売予定）の部品を用いることで、単4電池またはコイン電池（CR1632）による完全無線を実現することが出来ます。
 
 ### EX1-1．BLE Micro Proのハンダ付け
 
