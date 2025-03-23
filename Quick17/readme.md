@@ -125,20 +125,30 @@
 
 ## 8. ファームウェアの書き込みと動作確認
 
-Quick17はファームウェアとしてqmk_firmwareを使用しています。[公式のDocs](https://docs.qmk.fm/#/ja/)のとおりに環境を用意し、書き込みます。
+Quick17のファームウェアの書き込みには[Remap](https://remap-keys.app)というサイトを利用します。  
+Remapはキーマップの変更やファームウェアの書き込みが可能なウェブサービスです。
+Windows/MacOS/LinuxのChromeでのみ利用可能です。
+![remap-site-00](imgs/remap/quick17_remap00.jpg)
 
-コマンドラインからの書き込みを予定している場合、必要な環境のダウンロードに時間がかかることがあるため、前もってダウンロードを進めておくとスムーズです
+最初にRemap上の[Quick17のカタログページ](https://remap-keys.app/catalog/bc2yH0FkEwkstD3hJ3BW)を開きます。上のタブから「ファームウェア」を選択します。
+![remap-site-01](imgs/remap/quick17_remap01.jpg)
 
-` qmk flash -kb yushakobo/quick17 -km default `
 
-Note: 2021年10月現在、qmk_toolbox内のファームウェアダウンロードサービスに問題があり、表示されるメニューからダウンロードできない場合があります。その場合は[defaultのhexファイル](hex/readme.md)をダウンロードして書き込むか、[qmk configuratorでのキーマップ作成](https://config.qmk.fm/#/yushakobo/quick17/LAYOUT)をお試しください
+その後、「via/remap」内の書き込みを選び、ファームウェアを書き込みます。
+![remap-site-02](imgs/remap/quick17_remap02.jpg)
+書き込みは以下の手順で行います。
 
-入力のテストには[こちら](htps://config.qmk.fm/#/test)が便利です。
+1. ポップアップ画面が開かれるので、もう一度「書き込み」を選ぶ。
+1. 「remap-key.appがシリアルポートへの接続を要求しています」というポップアップが更に開かれるので、この画面のままリセットスイッチを2回押す。
+1. リセットされるので、5秒以内に「Pro Micro ~~~（ここの内容は場合によって異なります）」という名前を選択し、「接続」を押す。
+1. ファームウェアが書き込まれる。
 
-![qmk_conf_test](imgs/IMG_4475.jpg)
+入力のテストには[Remap](https://remap-keys.app/configure)からキーボードを読み込ませ、「・・・」メニュー内に隠れている「テストマトリクスモード」を選択します。  
+![remap-site-03](imgs/remap/quick17_remap03.jpg)
 
-デフォルトで点灯するLEDの動作や光り方に問題がある場合は、隣り合ったLEDのピンをはんだごてで温め直すことで多くの場合改善が見られます。
- 
+この状態ではスイッチの動作確認が行えます。スイッチが正常に押された場合、画面上のキーが青く光ります。
+![remap-site-04](imgs/remap/quick17_remap04.jpg)
+
 問題なく動作した場合はトッププレート/ボトムプレートにスペーサーをネジ止めします。
 
 ![sandwitch_mount](imgs/IMG_4938.JPG)
