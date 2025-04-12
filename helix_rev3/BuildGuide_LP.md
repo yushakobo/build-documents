@@ -120,19 +120,31 @@ OLEDモジュールはProMicro上部にかぶせるようにのせ、はんだ�
 
 ## 7. ファームウェアの書き込みと動作確認
 
-ここで、ファームウェアを書き込み、動作確認をします。
+※本項目で使用されている画像についてはデザインや書き込むファームウェアが異なる場合がありますが、適宜読み替えて作業をしてください。
 
-Helix rev3はQMK_firmwareを使用しています。 [公式のDocs](https://docs.qmk.fm/#/ja/)を参考に環境を用意し、書き込みます。
+Helix Rev3のファームウェアの書き込みには[Remap](https://remap-keys.app)というサイトを利用します。  
+Remapはキーマップの変更やファームウェアの書き込みが可能なウェブサービスです。
+Windows/MacOS/LinuxのChromeでのみ利用可能です。
+![remap-site-00](imgs/remap/helix_remap00.jpg)
 
-コマンドラインからの書き込みを予定している場合、必要な環境のダウンロードに時間がかかることがありますので、予めダウンロードを始めてからはんだ付け作業に入るとスムーズです。
+最初にRemap上の[Quick17のカタログページ](https://remap-keys.app/catalog/6IDu01pxYSDqMQRblcoX/firmware)を開きます。上のタブから「ファームウェア」を選択します。
+![remap-site-01](imgs/remap/helix_remap01.jpg)
 
-初めての方は書き込むキーマップに`via`をおすすめします。このキーマップは書き込み後[VIA](https://caniusevia.com/)というGUIソフトから簡単にキーマップを変更することができます。(一部制限があります)
 
-![the-via_sample](imgs/IMG_4474.png)
+その後、「via/remap」内の書き込みを選び、ファームウェアを書き込みます。
+![remap-site-02](imgs/remap/helix_remap02.jpg)
+書き込みは以下の手順で行います。
 
-入力のテストには[こちら](https://config.qmk.fm/#/test)が便利です。
+1. ポップアップ画面が開かれるので、もう一度「書き込み」を選ぶ。
+1. 「remap-key.appがシリアルポートへの接続を要求しています」というポップアップが更に開かれるので、この画面のままリセットスイッチを2回押す。
+1. リセットされるので、5秒以内に「Pro Micro ~~~（ここの内容は場合によって異なります）」という名前を選択し、「接続」を押す。
+1. ファームウェアが書き込まれる。
 
-![qmk_configurator_test_page](imgs/IMG_4475.jpg)
+入力のテストには[Remap](https://remap-keys.app/configure)からキーボードを読み込ませ、「・・・」メニュー内に隠れている「テストマトリクスモード」を選択します。  
+![remap-site-03](imgs/remap/helix_remap03.jpg)
+
+この状態ではスイッチの動作確認が行えます。スイッチが正常に押された場合、画面上のキーが青く光ります。
+![remap-site-04](imgs/remap/helix_remap04.jpg)
 
 動作に問題がなければ、ProMicro保護プレートをネジ止めし、次の工程へ進みましょう。
 
