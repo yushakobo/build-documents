@@ -35,30 +35,31 @@
     - [EX2-3. ボトムフォーム](#ex2-3-ボトムフォーム)
 
 ## 注意事項
-本キットは半田付け不要のキットとなっております。
-組み立ての際、半田ごては必要ありません。
+本キットは半田付け不要のキットとなっておりますが、オプションによっては半田付けが必要になる場合があります。
 
-ただし、オプションによっては半田付けが必要になる場合があります。
 半田ごてなどの火傷の危険性がある道具を使用する場合は、十分に注意して作業を行ってください。
 
 ## 必要な道具
-YK60はプラスドライバーのみで組み立てが可能です。
+|名称|使用用途|
+|---|---|
+|プラスドライバー|キーボードの固定時に使用|
+
 
 ## 1. キットに同梱されている部品をチェックする
 まずはキットに同梱されている部品が足りているかチェックしてください。
-万が一部品に不足がある場合は、大変お手数ですが遊舎工房の[お問い合わせフォーム](https://yushakobo.zendesk.com/hc/ja/requests/new)のカテゴリ 「購入した商品の不足・初期不良等」 を選択してお問い合わせください。
+同梱物に不足がある場合は、大変お手数ですが遊舎工房の[お問い合わせフォーム](https://yushakobo.zendesk.com/hc/ja/requests/new)のカテゴリ 「購入した商品の不足・初期不良等」 より注文番号を記載の上、お問い合わせください。
 
 |名称|数量|画像|備考|
 |---|---|---|---|
-|実装済み基板| 1 |![pcb_front](imgs/pcb_front.jpg)|ファームウェア書き込み済み|
-|スイッチプレート|1|![a](imgs/plate_front.jpg)||
+|実装済み基板|x1|![pcb_front](imgs/pcb_front.jpg)|ファームウェア書き込み済み|
+|スイッチプレート|x1|![plate_front](imgs/plate_front.jpg)||
 
 ## 2. 別途準備するパーツをチェックする
 キットには含まれていないパーツは別途用意する必要があります。
-予め購入し、組立前に不足がないかチェックしてください。
+予め購入し、組み立て前に不足がないかチェックしてください。
 
-|名称|数量|画像|備考|
-|---|---|---|---|
+|名称|数量|備考|
+|---|---|---|
 |キースイッチ|x63|ご購入は[こちら](https://shop.yushakobo.jp/collections/all-switches/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81)から</br>※CherryMX互換スイッチのみ対応|
 |キーキャップ|x63|ご購入は[こちら](https://shop.yushakobo.jp/collections/keycaps/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%AD%E3%83%BC%E3%82%AD%E3%83%A3%E3%83%83%E3%83%97)から</br>※キーレイアウトとキーキャップセットをよくチェックして購入してください|
 |スタビライザー 2U|x3|ご購入は[こちら](https://shop.yushakobo.jp/collections/all-keyboard-parts/Stabilizer)から|
@@ -71,11 +72,10 @@ YK60はプラスドライバーのみで組み立てが可能です。
 スイッチとキーキャップは[遊舎工房の読み物 『キーキャップの互換性の基本』](https://shop.yushakobo.jp/pages/keycap_compatibility?utm_source=github&utm_medium=link&utm_campaign=buildguide)を参考に選ぶようにしてください。
 ![cherrymx_compatibility](https://cdn.shopify.com/s/files/1/0532/0880/9633/files/cherrymx_compatibility.jpg)
 
-
 ## 3. 基板の表・裏を確認する
-最初に、YK60の実装基板とプレートについて、表・裏を確認します。
+最初に、YK60の実装基板とプレートの表裏を確認します。
+下記画像のように**基板の表側**には「YK60 version X.X.X designed by 遊舎工房」と記載があります。
 
-下記画像のように**基板の表側**には「YK60 version X.X.X designed by 遊舎工房」と描かれています。
 ![check_front](imgs/check_pcb_and_plate.jpg)
 ※X.X.Xにはバージョン表記が入るため、画像とは一致しない場合があります。
 
@@ -87,18 +87,20 @@ YK60の実装基板に、スタビライザーを取り付けます。
 ![stab_01](imgs/stab_01.jpg)
 
 スタビライザーとは大きいキーキャップ(バックスペース、スペース、エンターなど)を安定させるために使われるパーツです。
-より詳しく知りたい方は[遊舎工房の読み物 『自作キーボードの「スタビライザー」』](https://shop.yushakobo.jp/pages/diykeyb_stabilizer?utm_source=github&utm_medium=link&utm_campaign=buildguide)をご覧ください。
+詳細はこちらをご参照ください。
+[遊舎工房の読み物 『自作キーボードの「スタビライザー」』](https://shop.yushakobo.jp/pages/diykeyb_stabilizer?utm_source=github&utm_medium=link&utm_campaign=buildguide)
 
-スタビライザーは表面に取り付けます（裏面で固定）。
-下記画像の赤枠で囲われている位置に取り付けを行います。
+スタビライザーは表面に取り付け、裏面で固定します。
+画像内の赤枠部分に取り付けを行います。
 ![stab_02](imgs/stab_02.jpg)
 
-スタビライザーを取り付ける際は、スタビライザーのワイヤー（金属部分）と基板表面の黒い線の位置を合わせて取り付けを行います。
+スタビライザーを取り付ける際は、スタビライザーの金属ワイヤーを基板表面の黒い線（ガイド上）に合わせて取り付けを行います。
 ![stab_03](imgs/stab_03.jpg)
 
 その後、裏返して4箇所を固定します。
 ![stab_04](imgs/stab_04.jpg)
-固定の際はスタビライザーごとに取り付け方法が異なりますので、[遊舎工房の読み物 『自作キーボードの「スタビライザー」』](https://shop.yushakobo.jp/pages/diykeyb_stabilizer?utm_source=github&utm_medium=link&utm_campaign=buildguide)を見て、スタビライザーのタイプを確認してください。
+固定の際はスタビライザーごとに取り付け方法が異なります。
+[遊舎工房の読み物 『自作キーボードの「スタビライザー」』](https://shop.yushakobo.jp/pages/diykeyb_stabilizer?utm_source=github&utm_medium=link&utm_campaign=buildguide)を見て、スタビライザーのタイプを確認してください。
 
 取り付けが完了したら、正しくスタビライザーが取り付けられているか確認を行います。
 スタビライザーのステム（中心部分）を掴み、上に持ち上げます。
@@ -174,11 +176,11 @@ YK60はLEDを半田付けすることで、フルキーバックライト化（�
 |SK6812MINI-E（10個入り）|x7|ご購入は[こちら](https://shop.yushakobo.jp/products/sk6812mini-e-10)|
 
 ### 必要な道具
-|名称|備考|
+|名称|使用用途|
 |---|---|
-|ハンダごて|できるだけ温度調節機能付きのもの<br>温度は320度程度を推奨します。|
-|ハンダ線|0.6mm~0.8mm径程度のもの|
-|ピンセット|細かい作業を行うので|
+|ハンダごて|できるだけ温度調節機能付きのもの<br>温度は320度程度を推奨|
+|ハンダ線|0.6mm~0.8mm径程度のもの。|
+|ピンセット|LEDを掴むような細かい作業に使用|
 
 **こちらに[工具セット](https://shop.yushakobo.jp/products/a9900to)の用意もありますので、よろしければ部品と一緒にどうぞ。**
 
