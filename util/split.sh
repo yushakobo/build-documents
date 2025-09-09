@@ -11,11 +11,11 @@ POSTFIX=".md"
 
 while read LINE
 do
-  CONTAINTS=$(echo $LINE | grep -E "^##\s[0-9]\.")
+  CONTAINTS=$(echo $LINE | grep -E "^##\s[0-9]*\.|^###\s[0-9]*\.|^##\s[0-9]*[a-z]\.|^###\s[0-9]*[a-z]\.")
   if ! [[ $CONTAINTS == "" ]] 
   then
     FILEINDEX=$(($FILEINDEX+1))
-    # echo $FILEINDEX
+#    echo $FILEINDEX
   fi
   echo $LINE >> $FILEINDEX$POSTFIX
 done < $1
