@@ -57,8 +57,6 @@ KiCadの標準ライブラリに含まれる `RotaryEncoder_Switch` がそのま
 
 ### 3. フットプリント
 
-![footprint](imgs/RotaryEncoder_EC12&CKW12_footprint.png)
-
 CKW12用のKiCadフットプリントは[こちらからダウンロード](./footprint/xxx)できます。
 本フットプリントはMIT Licenseにて提供しています。
 
@@ -74,6 +72,8 @@ CKW12はEC12のフットプリントでも使用できるように作られて�
 
 提供フットプリントでは、18x18mmのF.Courtyard（部品占有領域）を記載すると共に、スルーホールの仕様（位置、穴径）をコンスルーに最適化しています。
 このフットプリントをそのまま利用していただくことも可能ですし、参考元にして改変することも可能です。
+
+![footprint](imgs/RotaryEncoder_EC12&CKW12_footprint.png)
 
 ---
 
