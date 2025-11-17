@@ -50,7 +50,7 @@ KiCadの標準ライブラリに含まれる `RotaryEncoder_Switch` がそのま
     - `C` ピンは **GND** に接続します。  
 
 - **スイッチ部分 (S1, S2)**:
-    - MCUのデジタルピンとGNDに接続します（通常のキースイッチと同様にマトリックスのCol, RowまたはDirect接続）。  
+    - MCUのデジタルピンとGNDに接続します（通常のキースイッチと同様にマトリクスのCol, RowまたはDirect接続）。  
     - `S1` と `S2` に極性はありません。  
 
 ![CKW12_symbol](./imgs/encoder_symbol.png)
