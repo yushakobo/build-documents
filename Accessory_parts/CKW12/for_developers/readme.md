@@ -93,7 +93,7 @@ CKW12はEC12のフットプリントでも使用できるように作られて�
 
 ## ファームウェア (QMK/VIA/Remap)
 
-QMK Firmware (およびVIA/Remap) で設定する場合、以下の2種類の方法があります。  
+QMK Firmware (およびVIA/Remap) で設定する場合、以下の方法があります。  
 詳しい実装方法は[Encoders | QMK Firmware](https://docs.qmk.fm/features/encoders)をご確認ください。  
 また、[Practice BoardのQMK Firmware](https://github.com/yushakobo/qmk_firmware/tree/practice_board/keyboards/yushakobo/practice_board)を確認し、参考にしていただいても構いません。  
 ※実装方法がわからないなどのお問い合わせはお答えいたしかねます。  
