@@ -450,4 +450,4 @@ https://github.com/sekigon-gonnoc/BLE-Micro-Pro/blob/master/AboutDefaultFirmware
 
 書き込み後は「3. リセットスイッチのハンダ付け」と同様の手順となります。  
 
-**Point:Bluetooth接続が不安定、キーマップの書き換えが出来ない、などのBLE Micro Pro特有の問題については[こちら](https://github.com/sekigon-gonnoc/BLE-Micro-Pro/blob/master/docs/FAQ.md)のFAQを確認してください。**  
+**Point:Bluetooth接続が不安定、キーマップの書き換えが出来ない、などのBLE Micro Pro特有の問題については[こちら](https://sekigon-gonnoc.github.io/BLE-Micro-Pro/#/FAQ)のFAQを確認してください。**  
