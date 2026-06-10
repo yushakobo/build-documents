@@ -20,6 +20,7 @@ For those who bought this kit before June 2026, please check your guide in [this
 |トッププレート|1枚|
 |アクリルミドルプレート|2個|厚さ5mmのもの|
 |ボトムプレート|1枚|
+|LED(YS-SK6812MINI-E)|13個|バックライト、アンダーグロー用|
 |Pro Micro 又は 互換品|1個|Sparkfun製Qwiic Pro Microには対応していません|
 |コンスルー|2本|[MAC8](https://www.mac8sdk.co.jp/catalog/)製 XB-3-2.5-12P|
 |タクトスイッチ|1個|リセットスイッチ用|
@@ -34,7 +35,6 @@ For those who bought this kit before June 2026, please check your guide in [this
 
 |部品名|数量|備考|
 |---|---|---|
-|LED(YS-SK6812MINI-E)|13個|バックライト、アンダーグロー用|
 |ロータリーエンコーダー|1~2個|Alps EC12E互換のもの、プッシュスイッチ対応|
 |ロータリーエンコーダー用ノブ|1~2個|使用するロータリーエンコーダーに対応したもの|
 <br />
@@ -137,7 +137,6 @@ UnderGlow LEDを使用する場合は、この穴を使いウラ面からはん�
 ![promicro_re-placed](imgs/IMG_0393.jpeg)
 
 ## 8. ファームウェア書き込み、動作確認
-
 ※本項目で使用されている画像についてはデザインや書き込むファームウェアが異なる場合がありますが、適宜読み替えて作業をしてください。
 
 Quick7のファームウェアの書き込みには[Remap](https://remap-keys.app)というサイトを利用します。  
