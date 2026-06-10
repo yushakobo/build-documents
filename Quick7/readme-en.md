@@ -2,13 +2,12 @@
 
 ## Required Parts
 
-![kit_parts_overview](imgs/quick7_parts_overview.jpg)
+![kit_parts_overview](imgs/IMG_0387.jpeg)
 
 |Description|qty|note|
 |---|---|---|
 |PCB|1|
 |Top Plate|1|
-|Acrylic Middle Plate|2|5mm Thick, fits around stand-offs|
 |Bottom Plate|1|
 |Pro Micro (or other compatibles, eg: Elite-C)|1|"Sparkfun Qwiic Pro Micro" is not supported|
 |Contrough|2|XB-3-2.5-12P from [MAC8](https://www.mac8japan.com/)|
@@ -24,6 +23,7 @@
 
 |Description|qty|note|
 |---|---|---|
+|Acrylic Middle Plate|1|10mm Thick, fits around stand-offs|
 |LED(YS-SK6812MINI-E)|13|for both key backlighting (consider transparent keycaps) and underglow|
 |Rotary Encoder|1~2|Alps EC12E compatible, w/Pushswitch available|
 |Knob|1~2|
@@ -122,7 +122,7 @@ If you have purchased rotary encoders, put them on the top side of main board (S
 
 ## 6. Solder Switches and Rotary encoder(s)
 
-Before start soldering the switches, cut the legs of them indicated here to avoid shorting them to the Pro Micro. 
+Before starting to solder the switches in place, cut the legs of them indicated here to avoid shorting them to the Pro Micro. 
 
 ![cut_3_legs_of_switches](imgs/IMG_0377.png)
 
@@ -136,7 +136,7 @@ and Rotary Encoder(s).
 
 ## 7. Install the controller
 
-Put the Pro Micro controller (removed from PCB in step.3) on the board. It does not need to be soldered, the headers will hold it in place with spring tension. Furthermore, the controller can be easily replaced at a later date if desired (for example, with an Elite-C model, which is pin-compatible).
+Put the Pro Micro controller (removed from PCB at step.3) on the board. It does not need to be soldered, the headers will hold it in place with spring tension. Furthermore, the controller can be easily replaced at a later date if desired (for example, with an Elite-C model, which is pin-compatible).
 
 ![promicro_re-placed](imgs/IMG_0393.jpeg)
 
@@ -148,22 +148,16 @@ Please refer [Official Documentations](https://docs.qmk.fm/) of qmk_firmware and
 
 Put standoffs on PCB with screws.
 
-[//]: # (Update image later)
-
 ![standoff_placed](imgs/IMG_0394.jpeg)
 
 If you are using a transparent plastic middle plate, insert it now. It will fit over the stand-offs.
 
-![middle_plate_on](imgs/first_acrylic_inserted.jpg)
-
-![middle_plate_complete](imgs/two_acrylic_stacked.jpg)
+![middle_plate_on](imgs/IMG_0395.jpeg)
 
 Finally, add the bottom acrylic plate, and screw it together with the remaining screws. Do not overtighten too much, or you might crack the plastic.
 
 ## 10. Put keycaps, Knob(s) and rubber feet on
 
-[//]: # (Update image later)
+![build_complete](imgs/IMG_4044.jpeg)
 
-![build_complete](imgs/assembly_completed.jpg)
-
-Done!
+You're done!
