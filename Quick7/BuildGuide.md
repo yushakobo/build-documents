@@ -174,7 +174,7 @@ Windows/MacOS/LinuxのChromeでのみ利用可能です。
 
 ![middle_plate_complete](imgs/two_acrylic_stacked.jpg)
 
-## 10. キーキャップ、ノブの取り付け
-最後にキーキャップとノブ、ゴム足を取り付けて完成です。
+## 10. ボトムプレート、キーキャップとノブの取り付け
+最後にボトムプレート、キーキャップ、ノブとゴム足を取り付けて完成です。
 
 ![build_complete](imgs/assembly_completed.jpg)
