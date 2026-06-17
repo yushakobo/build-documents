@@ -1,26 +1,16 @@
 # Quick7 ビルドガイド
 
-### [2026年6月以前にお求めいただいた方は、こちらのビルドガイドをご参照ください](readme.md)
-
 English Build guide is [here](Buildguide-en.md)
-
-For those who bought this kit before June 2026, please check your guide in [this page](Buildguide-en.md)
-
-[//]: # (todo: update English page accordingly)
 
 ## 必要な部品
 
-![kit_parts_overview](imgs/quick7_parts_overview.jpg)
-
-※本ビルドガイド中には、開発段階の緑基板の画像を含みます
+![kit_parts_overview](imgs/IMG_0387.jpeg)
 
 |部品名|数量|備考|
 |---|---|---|
 |基板|1枚|
 |トッププレート|1枚|
-|アクリルミドルプレート|2個|厚さ5mmのもの|
 |ボトムプレート|1枚|
-|LED(YS-SK6812MINI-E)|13個|バックライト、アンダーグロー用|
 |Pro Micro 又は 互換品|1個|Sparkfun製Qwiic Pro Microには対応していません|
 |コンスルー|2本|[MAC8](https://www.mac8sdk.co.jp/catalog/)製 XB-3-2.5-12P|
 |タクトスイッチ|1個|リセットスイッチ用|
@@ -35,8 +25,10 @@ For those who bought this kit before June 2026, please check your guide in [this
 
 |部品名|数量|備考|
 |---|---|---|
+|アクリルミドルプレート|1個|厚さ10mmのもの|
+|LED(YS-SK6812MINI-E)|13個|バックライト、アンダーグロー用|
 |ロータリーエンコーダー|1~2個|Alps EC12E互換のもの、プッシュスイッチ対応|
-|ロータリーエンコーダー用ノブ|1~2個|使用するロータリーエンコーダーに対応したもの|
+|ロータリーエンコーダー用ノブ|1~2個|使用するロータリーエンコーダーの軸に対応したもの|
 <br />
 
 ## 必要な道具
@@ -137,6 +129,7 @@ UnderGlow LEDを使用する場合は、この穴を使いウラ面からはん�
 ![promicro_re-placed](imgs/IMG_0393.jpeg)
 
 ## 8. ファームウェア書き込み、動作確認
+
 ※本項目で使用されている画像についてはデザインや書き込むファームウェアが異なる場合がありますが、適宜読み替えて作業をしてください。
 
 Quick7のファームウェアの書き込みには[Remap](https://remap-keys.app)というサイトを利用します。  
@@ -170,11 +163,9 @@ Windows/MacOS/LinuxのChromeでのみ利用可能です。
 
 ミドルプレートを使う場合、ここであわせて取り付けます。
 
-![middle_plate_on](imgs/first_acrylic_inserted.jpg)
+![middle_plate_on](imgs/IMG_0395.jpeg)
 
-![middle_plate_complete](imgs/two_acrylic_stacked.jpg)
+## 10. キーキャップ、ノブの取り付け
+最後にキーキャップとノブ、ゴム足を取り付けて完成です。
 
-## 10. ボトムプレート、キーキャップとノブの取り付け
-最後にボトムプレート、キーキャップ、ノブとゴム足を取り付けて完成です。
-
-![build_complete](imgs/assembly_completed.jpg)
+![build_complete](imgs/IMG_4044.jpeg)
